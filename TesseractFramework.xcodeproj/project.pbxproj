@@ -1,0 +1,1415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6438C2231D70ECED003EB71B /* LeptonicaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6438C2201D70ECE6003EB71B /* LeptonicaFramework.framework */; };
+		6438C2241D70ECF0003EB71B /* LeptonicaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6438C2201D70ECE6003EB71B /* LeptonicaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64FD5D871D708D380083AFCB /* TesseractFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FD5D861D708D380083AFCB /* TesseractFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FD5DDF1D7093A60083AFCB /* baseapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DDA1D7093A60083AFCB /* baseapi.cpp */; };
+		64FD5DE01D7093A60083AFCB /* capi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DDB1D7093A60083AFCB /* capi.cpp */; };
+		64FD5DE11D7093A60083AFCB /* pdfrenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DDC1D7093A60083AFCB /* pdfrenderer.cpp */; };
+		64FD5DE21D7093A60083AFCB /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DDD1D7093A60083AFCB /* renderer.cpp */; };
+		64FD5E041D7093D00083AFCB /* adaptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE41D7093D00083AFCB /* adaptions.cpp */; };
+		64FD5E051D7093D00083AFCB /* applybox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE51D7093D00083AFCB /* applybox.cpp */; };
+		64FD5E061D7093D10083AFCB /* control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE61D7093D00083AFCB /* control.cpp */; };
+		64FD5E071D7093D10083AFCB /* cube_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE71D7093D00083AFCB /* cube_control.cpp */; };
+		64FD5E081D7093D10083AFCB /* cube_reco_context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE81D7093D00083AFCB /* cube_reco_context.cpp */; };
+		64FD5E091D7093D10083AFCB /* cubeclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DE91D7093D00083AFCB /* cubeclassifier.cpp */; };
+		64FD5E0A1D7093D10083AFCB /* docqual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DEA1D7093D00083AFCB /* docqual.cpp */; };
+		64FD5E0B1D7093D10083AFCB /* equationdetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DEB1D7093D00083AFCB /* equationdetect.cpp */; };
+		64FD5E0C1D7093D10083AFCB /* fixspace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DEC1D7093D00083AFCB /* fixspace.cpp */; };
+		64FD5E0D1D7093D10083AFCB /* fixxht.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DED1D7093D00083AFCB /* fixxht.cpp */; };
+		64FD5E0E1D7093D10083AFCB /* ltrresultiterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DEE1D7093D00083AFCB /* ltrresultiterator.cpp */; };
+		64FD5E0F1D7093D10083AFCB /* osdetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DEF1D7093D00083AFCB /* osdetect.cpp */; };
+		64FD5E101D7093D10083AFCB /* output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF01D7093D00083AFCB /* output.cpp */; };
+		64FD5E111D7093D10083AFCB /* pageiterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF11D7093D00083AFCB /* pageiterator.cpp */; };
+		64FD5E121D7093D10083AFCB /* pagesegmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF21D7093D00083AFCB /* pagesegmain.cpp */; };
+		64FD5E131D7093D10083AFCB /* pagewalk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF31D7093D00083AFCB /* pagewalk.cpp */; };
+		64FD5E141D7093D10083AFCB /* par_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF41D7093D00083AFCB /* par_control.cpp */; };
+		64FD5E151D7093D10083AFCB /* paragraphs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF51D7093D00083AFCB /* paragraphs.cpp */; };
+		64FD5E161D7093D10083AFCB /* paramsd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF61D7093D00083AFCB /* paramsd.cpp */; };
+		64FD5E171D7093D10083AFCB /* pgedit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF71D7093D00083AFCB /* pgedit.cpp */; };
+		64FD5E181D7093D10083AFCB /* recogtraining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF81D7093D00083AFCB /* recogtraining.cpp */; };
+		64FD5E191D7093D10083AFCB /* reject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DF91D7093D00083AFCB /* reject.cpp */; };
+		64FD5E1A1D7093D10083AFCB /* resultiterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFA1D7093D00083AFCB /* resultiterator.cpp */; };
+		64FD5E1B1D7093D10083AFCB /* superscript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFB1D7093D00083AFCB /* superscript.cpp */; };
+		64FD5E1C1D7093D10083AFCB /* tessbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFC1D7093D00083AFCB /* tessbox.cpp */; };
+		64FD5E1D1D7093D10083AFCB /* tessedit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFD1D7093D00083AFCB /* tessedit.cpp */; };
+		64FD5E1E1D7093D10083AFCB /* tesseract_cube_combiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFE1D7093D00083AFCB /* tesseract_cube_combiner.cpp */; };
+		64FD5E1F1D7093D10083AFCB /* tesseractclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5DFF1D7093D00083AFCB /* tesseractclass.cpp */; };
+		64FD5E201D7093D10083AFCB /* tessvars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E001D7093D00083AFCB /* tessvars.cpp */; };
+		64FD5E211D7093D10083AFCB /* tfacepp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E011D7093D00083AFCB /* tfacepp.cpp */; };
+		64FD5E221D7093D10083AFCB /* thresholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E021D7093D00083AFCB /* thresholder.cpp */; };
+		64FD5E231D7093D10083AFCB /* werdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E031D7093D00083AFCB /* werdit.cpp */; };
+		64FD5E4B1D7094010083AFCB /* blamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E241D7094010083AFCB /* blamer.cpp */; };
+		64FD5E4C1D7094010083AFCB /* blobbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E251D7094010083AFCB /* blobbox.cpp */; };
+		64FD5E4D1D7094010083AFCB /* blobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E261D7094010083AFCB /* blobs.cpp */; };
+		64FD5E4E1D7094010083AFCB /* blread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E271D7094010083AFCB /* blread.cpp */; };
+		64FD5E4F1D7094010083AFCB /* boxread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E281D7094010083AFCB /* boxread.cpp */; };
+		64FD5E501D7094010083AFCB /* boxword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E291D7094010083AFCB /* boxword.cpp */; };
+		64FD5E511D7094010083AFCB /* ccstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2A1D7094010083AFCB /* ccstruct.cpp */; };
+		64FD5E521D7094010083AFCB /* coutln.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2B1D7094010083AFCB /* coutln.cpp */; };
+		64FD5E531D7094010083AFCB /* detlinefit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2C1D7094010083AFCB /* detlinefit.cpp */; };
+		64FD5E541D7094010083AFCB /* dppoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2D1D7094010083AFCB /* dppoint.cpp */; };
+		64FD5E551D7094010083AFCB /* fontinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2E1D7094010083AFCB /* fontinfo.cpp */; };
+		64FD5E561D7094010083AFCB /* genblob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E2F1D7094010083AFCB /* genblob.cpp */; };
+		64FD5E571D7094010083AFCB /* imagedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E301D7094010083AFCB /* imagedata.cpp */; };
+		64FD5E581D7094010083AFCB /* linlsq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E311D7094010083AFCB /* linlsq.cpp */; };
+		64FD5E591D7094010083AFCB /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E321D7094010083AFCB /* matrix.cpp */; };
+		64FD5E5A1D7094010083AFCB /* mod128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E331D7094010083AFCB /* mod128.cpp */; };
+		64FD5E5B1D7094010083AFCB /* normalis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E341D7094010083AFCB /* normalis.cpp */; };
+		64FD5E5C1D7094010083AFCB /* ocrblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E351D7094010083AFCB /* ocrblock.cpp */; };
+		64FD5E5D1D7094010083AFCB /* ocrpara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E361D7094010083AFCB /* ocrpara.cpp */; };
+		64FD5E5E1D7094010083AFCB /* ocrrow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E371D7094010083AFCB /* ocrrow.cpp */; };
+		64FD5E5F1D7094010083AFCB /* otsuthr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E381D7094010083AFCB /* otsuthr.cpp */; };
+		64FD5E601D7094010083AFCB /* pageres.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E391D7094010083AFCB /* pageres.cpp */; };
+		64FD5E611D7094010083AFCB /* params_training_featdef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3A1D7094010083AFCB /* params_training_featdef.cpp */; };
+		64FD5E621D7094010083AFCB /* pdblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3B1D7094010083AFCB /* pdblock.cpp */; };
+		64FD5E631D7094010083AFCB /* points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3C1D7094010083AFCB /* points.cpp */; };
+		64FD5E641D7094010083AFCB /* polyaprx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3D1D7094010083AFCB /* polyaprx.cpp */; };
+		64FD5E651D7094010083AFCB /* polyblk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3E1D7094010083AFCB /* polyblk.cpp */; };
+		64FD5E661D7094010083AFCB /* publictypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E3F1D7094010083AFCB /* publictypes.cpp */; };
+		64FD5E671D7094010083AFCB /* quadlsq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E401D7094010083AFCB /* quadlsq.cpp */; };
+		64FD5E681D7094010083AFCB /* quspline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E411D7094010083AFCB /* quspline.cpp */; };
+		64FD5E691D7094010083AFCB /* ratngs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E421D7094010083AFCB /* ratngs.cpp */; };
+		64FD5E6A1D7094010083AFCB /* rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E431D7094010083AFCB /* rect.cpp */; };
+		64FD5E6B1D7094010083AFCB /* rejctmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E441D7094010083AFCB /* rejctmap.cpp */; };
+		64FD5E6C1D7094010083AFCB /* seam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E451D7094010083AFCB /* seam.cpp */; };
+		64FD5E6D1D7094010083AFCB /* split.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E461D7094010083AFCB /* split.cpp */; };
+		64FD5E6E1D7094010083AFCB /* statistc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E471D7094010083AFCB /* statistc.cpp */; };
+		64FD5E6F1D7094010083AFCB /* stepblob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E481D7094010083AFCB /* stepblob.cpp */; };
+		64FD5E701D7094010083AFCB /* vecfuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E491D7094010083AFCB /* vecfuncs.cpp */; };
+		64FD5E711D7094010083AFCB /* werd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E4A1D7094010083AFCB /* werd.cpp */; };
+		64FD5E891D70942E0083AFCB /* ambigs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E721D70942E0083AFCB /* ambigs.cpp */; };
+		64FD5E8A1D70942E0083AFCB /* basedir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E731D70942E0083AFCB /* basedir.cpp */; };
+		64FD5E8B1D70942E0083AFCB /* bits16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E741D70942E0083AFCB /* bits16.cpp */; };
+		64FD5E8C1D70942E0083AFCB /* bitvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E751D70942E0083AFCB /* bitvector.cpp */; };
+		64FD5E8D1D70942E0083AFCB /* ccutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E761D70942E0083AFCB /* ccutil.cpp */; };
+		64FD5E8E1D70942E0083AFCB /* clst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E771D70942E0083AFCB /* clst.cpp */; };
+		64FD5E8F1D70942E0083AFCB /* elst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E781D70942E0083AFCB /* elst.cpp */; };
+		64FD5E901D70942E0083AFCB /* elst2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E791D70942E0083AFCB /* elst2.cpp */; };
+		64FD5E911D70942E0083AFCB /* errcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7A1D70942E0083AFCB /* errcode.cpp */; };
+		64FD5E921D70942E0083AFCB /* globaloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7B1D70942E0083AFCB /* globaloc.cpp */; };
+		64FD5E931D70942E0083AFCB /* indexmapbidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7C1D70942E0083AFCB /* indexmapbidi.cpp */; };
+		64FD5E941D70942E0083AFCB /* mainblk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7D1D70942E0083AFCB /* mainblk.cpp */; };
+		64FD5E951D70942E0083AFCB /* params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7E1D70942E0083AFCB /* params.cpp */; };
+		64FD5E961D70942E0083AFCB /* scanutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E7F1D70942E0083AFCB /* scanutils.cpp */; };
+		64FD5E971D70942E0083AFCB /* serialis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E801D70942E0083AFCB /* serialis.cpp */; };
+		64FD5E981D70942E0083AFCB /* strngs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E811D70942E0083AFCB /* strngs.cpp */; };
+		64FD5E991D70942E0083AFCB /* tessdatamanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E821D70942E0083AFCB /* tessdatamanager.cpp */; };
+		64FD5E9A1D70942E0083AFCB /* tprintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E831D70942E0083AFCB /* tprintf.cpp */; };
+		64FD5E9B1D70942E0083AFCB /* unichar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E841D70942E0083AFCB /* unichar.cpp */; };
+		64FD5E9C1D70942F0083AFCB /* unicharmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E851D70942E0083AFCB /* unicharmap.cpp */; };
+		64FD5E9D1D70942F0083AFCB /* unicharset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E861D70942E0083AFCB /* unicharset.cpp */; };
+		64FD5E9E1D70942F0083AFCB /* unicodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E871D70942E0083AFCB /* unicodes.cpp */; };
+		64FD5E9F1D70942F0083AFCB /* universalambigs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5E881D70942E0083AFCB /* universalambigs.cpp */; };
+		64FD5EC31D7094650083AFCB /* adaptive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA01D7094650083AFCB /* adaptive.cpp */; };
+		64FD5EC41D7094650083AFCB /* adaptmatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA11D7094650083AFCB /* adaptmatch.cpp */; };
+		64FD5EC51D7094650083AFCB /* blobclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA21D7094650083AFCB /* blobclass.cpp */; };
+		64FD5EC61D7094650083AFCB /* classify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA31D7094650083AFCB /* classify.cpp */; };
+		64FD5EC71D7094650083AFCB /* cluster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA41D7094650083AFCB /* cluster.cpp */; };
+		64FD5EC81D7094650083AFCB /* clusttool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA51D7094650083AFCB /* clusttool.cpp */; };
+		64FD5EC91D7094650083AFCB /* cutoffs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA61D7094650083AFCB /* cutoffs.cpp */; };
+		64FD5ECA1D7094650083AFCB /* errorcounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA71D7094650083AFCB /* errorcounter.cpp */; };
+		64FD5ECB1D7094650083AFCB /* featdefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA81D7094650083AFCB /* featdefs.cpp */; };
+		64FD5ECC1D7094650083AFCB /* float2int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EA91D7094650083AFCB /* float2int.cpp */; };
+		64FD5ECD1D7094650083AFCB /* fpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAA1D7094650083AFCB /* fpoint.cpp */; };
+		64FD5ECE1D7094650083AFCB /* intfeaturedist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAB1D7094650083AFCB /* intfeaturedist.cpp */; };
+		64FD5ECF1D7094650083AFCB /* intfeaturemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAC1D7094650083AFCB /* intfeaturemap.cpp */; };
+		64FD5ED01D7094650083AFCB /* intfeaturespace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAD1D7094650083AFCB /* intfeaturespace.cpp */; };
+		64FD5ED11D7094650083AFCB /* intfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAE1D7094650083AFCB /* intfx.cpp */; };
+		64FD5ED21D7094650083AFCB /* intmatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EAF1D7094650083AFCB /* intmatcher.cpp */; };
+		64FD5ED31D7094650083AFCB /* intproto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB01D7094650083AFCB /* intproto.cpp */; };
+		64FD5ED41D7094650083AFCB /* kdtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB11D7094650083AFCB /* kdtree.cpp */; };
+		64FD5ED51D7094650083AFCB /* mastertrainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB21D7094650083AFCB /* mastertrainer.cpp */; };
+		64FD5ED61D7094650083AFCB /* mf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB31D7094650083AFCB /* mf.cpp */; };
+		64FD5ED71D7094650083AFCB /* mfdefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB41D7094650083AFCB /* mfdefs.cpp */; };
+		64FD5ED81D7094650083AFCB /* mfoutline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB51D7094650083AFCB /* mfoutline.cpp */; };
+		64FD5ED91D7094650083AFCB /* mfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB61D7094650083AFCB /* mfx.cpp */; };
+		64FD5EDA1D7094650083AFCB /* normfeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB71D7094650083AFCB /* normfeat.cpp */; };
+		64FD5EDB1D7094650083AFCB /* normmatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB81D7094650083AFCB /* normmatch.cpp */; };
+		64FD5EDC1D7094650083AFCB /* ocrfeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EB91D7094650083AFCB /* ocrfeatures.cpp */; };
+		64FD5EDD1D7094650083AFCB /* outfeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBA1D7094650083AFCB /* outfeat.cpp */; };
+		64FD5EDE1D7094650083AFCB /* picofeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBB1D7094650083AFCB /* picofeat.cpp */; };
+		64FD5EDF1D7094650083AFCB /* protos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBC1D7094650083AFCB /* protos.cpp */; };
+		64FD5EE01D7094650083AFCB /* sampleiterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBD1D7094650083AFCB /* sampleiterator.cpp */; };
+		64FD5EE11D7094650083AFCB /* shapeclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBE1D7094650083AFCB /* shapeclassifier.cpp */; };
+		64FD5EE21D7094650083AFCB /* shapetable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EBF1D7094650083AFCB /* shapetable.cpp */; };
+		64FD5EE31D7094650083AFCB /* tessclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EC01D7094650083AFCB /* tessclassifier.cpp */; };
+		64FD5EE41D7094650083AFCB /* trainingsample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EC11D7094650083AFCB /* trainingsample.cpp */; };
+		64FD5EE51D7094650083AFCB /* trainingsampleset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EC21D7094650083AFCB /* trainingsampleset.cpp */; };
+		64FD5F051D7094910083AFCB /* altlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EE61D7094910083AFCB /* altlist.cpp */; };
+		64FD5F061D7094910083AFCB /* beam_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EE71D7094910083AFCB /* beam_search.cpp */; };
+		64FD5F071D7094910083AFCB /* bmp_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EE81D7094910083AFCB /* bmp_8.cpp */; };
+		64FD5F081D7094910083AFCB /* cached_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EE91D7094910083AFCB /* cached_file.cpp */; };
+		64FD5F091D7094910083AFCB /* char_altlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EEA1D7094910083AFCB /* char_altlist.cpp */; };
+		64FD5F0A1D7094910083AFCB /* char_bigrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EEB1D7094910083AFCB /* char_bigrams.cpp */; };
+		64FD5F0B1D7094910083AFCB /* char_samp_enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EEC1D7094910083AFCB /* char_samp_enum.cpp */; };
+		64FD5F0C1D7094910083AFCB /* char_samp_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EED1D7094910083AFCB /* char_samp_set.cpp */; };
+		64FD5F0D1D7094910083AFCB /* char_samp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EEE1D7094910083AFCB /* char_samp.cpp */; };
+		64FD5F0E1D7094910083AFCB /* char_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EEF1D7094910083AFCB /* char_set.cpp */; };
+		64FD5F0F1D7094910083AFCB /* classifier_factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF01D7094910083AFCB /* classifier_factory.cpp */; };
+		64FD5F101D7094910083AFCB /* con_comp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF11D7094910083AFCB /* con_comp.cpp */; };
+		64FD5F111D7094910083AFCB /* conv_net_classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF21D7094910083AFCB /* conv_net_classifier.cpp */; };
+		64FD5F121D7094910083AFCB /* cube_line_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF31D7094910083AFCB /* cube_line_object.cpp */; };
+		64FD5F131D7094910083AFCB /* cube_line_segmenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF41D7094910083AFCB /* cube_line_segmenter.cpp */; };
+		64FD5F141D7094910083AFCB /* cube_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF51D7094910083AFCB /* cube_object.cpp */; };
+		64FD5F151D7094910083AFCB /* cube_search_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF61D7094910083AFCB /* cube_search_object.cpp */; };
+		64FD5F161D7094910083AFCB /* cube_tuning_params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF71D7094910083AFCB /* cube_tuning_params.cpp */; };
+		64FD5F171D7094910083AFCB /* cube_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF81D7094910083AFCB /* cube_utils.cpp */; };
+		64FD5F181D7094910083AFCB /* feature_bmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EF91D7094910083AFCB /* feature_bmp.cpp */; };
+		64FD5F191D7094910083AFCB /* feature_chebyshev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFA1D7094910083AFCB /* feature_chebyshev.cpp */; };
+		64FD5F1A1D7094910083AFCB /* feature_hybrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFB1D7094910083AFCB /* feature_hybrid.cpp */; };
+		64FD5F1B1D7094910083AFCB /* hybrid_neural_net_classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFC1D7094910083AFCB /* hybrid_neural_net_classifier.cpp */; };
+		64FD5F1C1D7094910083AFCB /* search_column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFD1D7094910083AFCB /* search_column.cpp */; };
+		64FD5F1D1D7094910083AFCB /* search_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFE1D7094910083AFCB /* search_node.cpp */; };
+		64FD5F1E1D7094910083AFCB /* tess_lang_mod_edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5EFF1D7094910083AFCB /* tess_lang_mod_edge.cpp */; };
+		64FD5F1F1D7094910083AFCB /* tess_lang_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F001D7094910083AFCB /* tess_lang_model.cpp */; };
+		64FD5F201D7094910083AFCB /* word_altlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F011D7094910083AFCB /* word_altlist.cpp */; };
+		64FD5F211D7094910083AFCB /* word_list_lang_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F021D7094910083AFCB /* word_list_lang_model.cpp */; };
+		64FD5F221D7094910083AFCB /* word_size_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F031D7094910083AFCB /* word_size_model.cpp */; };
+		64FD5F231D7094910083AFCB /* word_unigrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F041D7094910083AFCB /* word_unigrams.cpp */; };
+		64FD5F2F1D7094AC0083AFCB /* bitvec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F241D7094AC0083AFCB /* bitvec.cpp */; };
+		64FD5F301D7094AC0083AFCB /* callcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F251D7094AC0083AFCB /* callcpp.cpp */; };
+		64FD5F311D7094AC0083AFCB /* cutil_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F261D7094AC0083AFCB /* cutil_class.cpp */; };
+		64FD5F321D7094AC0083AFCB /* cutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F271D7094AC0083AFCB /* cutil.cpp */; };
+		64FD5F331D7094AC0083AFCB /* danerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F281D7094AC0083AFCB /* danerror.cpp */; };
+		64FD5F341D7094AC0083AFCB /* efio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F291D7094AC0083AFCB /* efio.cpp */; };
+		64FD5F351D7094AC0083AFCB /* emalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F2A1D7094AC0083AFCB /* emalloc.cpp */; };
+		64FD5F361D7094AC0083AFCB /* freelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F2B1D7094AC0083AFCB /* freelist.cpp */; };
+		64FD5F371D7094AC0083AFCB /* listio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F2C1D7094AC0083AFCB /* listio.cpp */; };
+		64FD5F381D7094AC0083AFCB /* oldlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F2D1D7094AC0083AFCB /* oldlist.cpp */; };
+		64FD5F391D7094AC0083AFCB /* structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F2E1D7094AC0083AFCB /* structures.cpp */; };
+		64FD5F421D7094C10083AFCB /* context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3A1D7094C10083AFCB /* context.cpp */; };
+		64FD5F431D7094C10083AFCB /* dawg_cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3B1D7094C10083AFCB /* dawg_cache.cpp */; };
+		64FD5F441D7094C10083AFCB /* dawg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3C1D7094C10083AFCB /* dawg.cpp */; };
+		64FD5F451D7094C10083AFCB /* dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3D1D7094C10083AFCB /* dict.cpp */; };
+		64FD5F461D7094C10083AFCB /* hyphen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3E1D7094C10083AFCB /* hyphen.cpp */; };
+		64FD5F471D7094C10083AFCB /* permdawg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F3F1D7094C10083AFCB /* permdawg.cpp */; };
+		64FD5F481D7094C10083AFCB /* stopper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F401D7094C10083AFCB /* stopper.cpp */; };
+		64FD5F491D7094C10083AFCB /* trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F411D7094C10083AFCB /* trie.cpp */; };
+		64FD5F4E1D7094D20083AFCB /* input_file_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F4A1D7094D20083AFCB /* input_file_buffer.cpp */; };
+		64FD5F4F1D7094D20083AFCB /* neural_net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F4B1D7094D20083AFCB /* neural_net.cpp */; };
+		64FD5F501D7094D20083AFCB /* neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F4C1D7094D20083AFCB /* neuron.cpp */; };
+		64FD5F511D7094D20083AFCB /* sigmoid_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F4D1D7094D20083AFCB /* sigmoid_table.cpp */; };
+		64FD5F531D7094DD0083AFCB /* openclwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F521D7094DD0083AFCB /* openclwrapper.cpp */; };
+		64FD5F7D1D7095150083AFCB /* alignedblob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F541D7095150083AFCB /* alignedblob.cpp */; };
+		64FD5F7E1D7095150083AFCB /* baselinedetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F551D7095150083AFCB /* baselinedetect.cpp */; };
+		64FD5F7F1D7095150083AFCB /* bbgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F561D7095150083AFCB /* bbgrid.cpp */; };
+		64FD5F801D7095150083AFCB /* blkocc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F571D7095150083AFCB /* blkocc.cpp */; };
+		64FD5F811D7095150083AFCB /* blobgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F581D7095150083AFCB /* blobgrid.cpp */; };
+		64FD5F821D7095150083AFCB /* ccnontextdetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F591D7095150083AFCB /* ccnontextdetect.cpp */; };
+		64FD5F831D7095150083AFCB /* cjkpitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5A1D7095150083AFCB /* cjkpitch.cpp */; };
+		64FD5F841D7095150083AFCB /* colfind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5B1D7095150083AFCB /* colfind.cpp */; };
+		64FD5F851D7095150083AFCB /* colpartition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5C1D7095150083AFCB /* colpartition.cpp */; };
+		64FD5F861D7095150083AFCB /* colpartitiongrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5D1D7095150083AFCB /* colpartitiongrid.cpp */; };
+		64FD5F871D7095150083AFCB /* colpartitionset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5E1D7095150083AFCB /* colpartitionset.cpp */; };
+		64FD5F881D7095150083AFCB /* devanagari_processing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F5F1D7095150083AFCB /* devanagari_processing.cpp */; };
+		64FD5F891D7095150083AFCB /* drawedg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F601D7095150083AFCB /* drawedg.cpp */; };
+		64FD5F8A1D7095150083AFCB /* drawtord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F611D7095150083AFCB /* drawtord.cpp */; };
+		64FD5F8B1D7095150083AFCB /* edgblob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F621D7095150083AFCB /* edgblob.cpp */; };
+		64FD5F8C1D7095150083AFCB /* edgloop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F631D7095150083AFCB /* edgloop.cpp */; };
+		64FD5F8D1D7095150083AFCB /* equationdetectbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F641D7095150083AFCB /* equationdetectbase.cpp */; };
+		64FD5F8E1D7095150083AFCB /* fpchop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F651D7095150083AFCB /* fpchop.cpp */; };
+		64FD5F8F1D7095150083AFCB /* gap_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F661D7095150083AFCB /* gap_map.cpp */; };
+		64FD5F901D7095150083AFCB /* imagefind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F671D7095150083AFCB /* imagefind.cpp */; };
+		64FD5F911D7095150083AFCB /* linefind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F681D7095150083AFCB /* linefind.cpp */; };
+		64FD5F921D7095150083AFCB /* makerow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F691D7095150083AFCB /* makerow.cpp */; };
+		64FD5F931D7095150083AFCB /* oldbasel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6A1D7095150083AFCB /* oldbasel.cpp */; };
+		64FD5F941D7095150083AFCB /* pithsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6B1D7095150083AFCB /* pithsync.cpp */; };
+		64FD5F951D7095150083AFCB /* pitsync1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6C1D7095150083AFCB /* pitsync1.cpp */; };
+		64FD5F961D7095150083AFCB /* scanedg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6D1D7095150083AFCB /* scanedg.cpp */; };
+		64FD5F971D7095150083AFCB /* sortflts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6E1D7095150083AFCB /* sortflts.cpp */; };
+		64FD5F981D7095150083AFCB /* strokewidth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F6F1D7095150083AFCB /* strokewidth.cpp */; };
+		64FD5F991D7095150083AFCB /* tabfind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F701D7095150083AFCB /* tabfind.cpp */; };
+		64FD5F9A1D7095150083AFCB /* tablefind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F711D7095150083AFCB /* tablefind.cpp */; };
+		64FD5F9B1D7095150083AFCB /* tablerecog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F721D7095150083AFCB /* tablerecog.cpp */; };
+		64FD5F9C1D7095150083AFCB /* tabvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F731D7095150083AFCB /* tabvector.cpp */; };
+		64FD5F9D1D7095150083AFCB /* textlineprojection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F741D7095150083AFCB /* textlineprojection.cpp */; };
+		64FD5F9E1D7095150083AFCB /* textord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F751D7095150083AFCB /* textord.cpp */; };
+		64FD5F9F1D7095150083AFCB /* topitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F761D7095150083AFCB /* topitch.cpp */; };
+		64FD5FA01D7095150083AFCB /* tordmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F771D7095150083AFCB /* tordmain.cpp */; };
+		64FD5FA11D7095150083AFCB /* tospace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F781D7095150083AFCB /* tospace.cpp */; };
+		64FD5FA21D7095150083AFCB /* tovars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F791D7095150083AFCB /* tovars.cpp */; };
+		64FD5FA31D7095150083AFCB /* underlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F7A1D7095150083AFCB /* underlin.cpp */; };
+		64FD5FA41D7095150083AFCB /* wordseg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F7B1D7095150083AFCB /* wordseg.cpp */; };
+		64FD5FA51D7095150083AFCB /* workingpartset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5F7C1D7095150083AFCB /* workingpartset.cpp */; };
+		64FD5FB91D7095340083AFCB /* associate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FA61D7095340083AFCB /* associate.cpp */; };
+		64FD5FBA1D7095340083AFCB /* chop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FA71D7095340083AFCB /* chop.cpp */; };
+		64FD5FBB1D7095340083AFCB /* chopper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FA81D7095340083AFCB /* chopper.cpp */; };
+		64FD5FBC1D7095340083AFCB /* drawfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FA91D7095340083AFCB /* drawfx.cpp */; };
+		64FD5FBD1D7095340083AFCB /* findseam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAA1D7095340083AFCB /* findseam.cpp */; };
+		64FD5FBE1D7095340083AFCB /* gradechop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAB1D7095340083AFCB /* gradechop.cpp */; };
+		64FD5FBF1D7095340083AFCB /* language_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAC1D7095340083AFCB /* language_model.cpp */; };
+		64FD5FC01D7095340083AFCB /* lm_consistency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAD1D7095340083AFCB /* lm_consistency.cpp */; };
+		64FD5FC11D7095340083AFCB /* lm_pain_points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAE1D7095340083AFCB /* lm_pain_points.cpp */; };
+		64FD5FC21D7095340083AFCB /* lm_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FAF1D7095340083AFCB /* lm_state.cpp */; };
+		64FD5FC31D7095340083AFCB /* outlines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB01D7095340083AFCB /* outlines.cpp */; };
+		64FD5FC41D7095340083AFCB /* params_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB11D7095340083AFCB /* params_model.cpp */; };
+		64FD5FC51D7095340083AFCB /* pieces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB21D7095340083AFCB /* pieces.cpp */; };
+		64FD5FC61D7095340083AFCB /* plotedges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB31D7095340083AFCB /* plotedges.cpp */; };
+		64FD5FC71D7095340083AFCB /* render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB41D7095340083AFCB /* render.cpp */; };
+		64FD5FC81D7095340083AFCB /* segsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB51D7095340083AFCB /* segsearch.cpp */; };
+		64FD5FC91D7095340083AFCB /* tface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB61D7095340083AFCB /* tface.cpp */; };
+		64FD5FCA1D7095340083AFCB /* wordclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB71D7095340083AFCB /* wordclass.cpp */; };
+		64FD5FCB1D7095340083AFCB /* wordrec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD5FB81D7095340083AFCB /* wordrec.cpp */; };
+		64FD61421D70A2A60083AFCB /* scrollview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD613E1D70A2A60083AFCB /* scrollview.cpp */; };
+		64FD61431D70A2A60083AFCB /* svmnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD613F1D70A2A60083AFCB /* svmnode.cpp */; };
+		64FD61441D70A2A60083AFCB /* svpaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD61401D70A2A60083AFCB /* svpaint.cpp */; };
+		64FD61451D70A2A60083AFCB /* svutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD61411D70A2A60083AFCB /* svutil.cpp */; };
+		64FD631F1D70BC1D0083AFCB /* memry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64FD631E1D70BC1D0083AFCB /* memry.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6438C21F1D70ECE6003EB71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6438C21B1D70ECE6003EB71B /* LeptonicaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64FD61561D70AD800083AFCB;
+			remoteInfo = LeptonicaFramework;
+		};
+		6438C2211D70ECEA003EB71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6438C21B1D70ECE6003EB71B /* LeptonicaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FD61551D70AD800083AFCB;
+			remoteInfo = LeptonicaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64FD63361D70D4740083AFCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6438C2241D70ECF0003EB71B /* LeptonicaFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6438C21B1D70ECE6003EB71B /* LeptonicaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LeptonicaFramework.xcodeproj; path = TesseractFramework/LeptonicaFramework/LeptonicaFramework.xcodeproj; sourceTree = "<group>"; };
+		64FD5D831D708D380083AFCB /* TesseractFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TesseractFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FD5D861D708D380083AFCB /* TesseractFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TesseractFramework.h; sourceTree = "<group>"; };
+		64FD5D881D708D380083AFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FD5DDA1D7093A60083AFCB /* baseapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = baseapi.cpp; path = TesseractFramework/Tesseract/api/baseapi.cpp; sourceTree = "<group>"; };
+		64FD5DDB1D7093A60083AFCB /* capi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = capi.cpp; path = TesseractFramework/Tesseract/api/capi.cpp; sourceTree = "<group>"; };
+		64FD5DDC1D7093A60083AFCB /* pdfrenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pdfrenderer.cpp; path = TesseractFramework/Tesseract/api/pdfrenderer.cpp; sourceTree = "<group>"; };
+		64FD5DDD1D7093A60083AFCB /* renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = renderer.cpp; path = TesseractFramework/Tesseract/api/renderer.cpp; sourceTree = "<group>"; };
+		64FD5DE41D7093D00083AFCB /* adaptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adaptions.cpp; path = TesseractFramework/Tesseract/ccmain/adaptions.cpp; sourceTree = "<group>"; };
+		64FD5DE51D7093D00083AFCB /* applybox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = applybox.cpp; path = TesseractFramework/Tesseract/ccmain/applybox.cpp; sourceTree = "<group>"; };
+		64FD5DE61D7093D00083AFCB /* control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = control.cpp; path = TesseractFramework/Tesseract/ccmain/control.cpp; sourceTree = "<group>"; };
+		64FD5DE71D7093D00083AFCB /* cube_control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_control.cpp; path = TesseractFramework/Tesseract/ccmain/cube_control.cpp; sourceTree = "<group>"; };
+		64FD5DE81D7093D00083AFCB /* cube_reco_context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_reco_context.cpp; path = TesseractFramework/Tesseract/ccmain/cube_reco_context.cpp; sourceTree = "<group>"; };
+		64FD5DE91D7093D00083AFCB /* cubeclassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cubeclassifier.cpp; path = TesseractFramework/Tesseract/ccmain/cubeclassifier.cpp; sourceTree = "<group>"; };
+		64FD5DEA1D7093D00083AFCB /* docqual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = docqual.cpp; path = TesseractFramework/Tesseract/ccmain/docqual.cpp; sourceTree = "<group>"; };
+		64FD5DEB1D7093D00083AFCB /* equationdetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = equationdetect.cpp; path = TesseractFramework/Tesseract/ccmain/equationdetect.cpp; sourceTree = "<group>"; };
+		64FD5DEC1D7093D00083AFCB /* fixspace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fixspace.cpp; path = TesseractFramework/Tesseract/ccmain/fixspace.cpp; sourceTree = "<group>"; };
+		64FD5DED1D7093D00083AFCB /* fixxht.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fixxht.cpp; path = TesseractFramework/Tesseract/ccmain/fixxht.cpp; sourceTree = "<group>"; };
+		64FD5DEE1D7093D00083AFCB /* ltrresultiterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ltrresultiterator.cpp; path = TesseractFramework/Tesseract/ccmain/ltrresultiterator.cpp; sourceTree = "<group>"; };
+		64FD5DEF1D7093D00083AFCB /* osdetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = osdetect.cpp; path = TesseractFramework/Tesseract/ccmain/osdetect.cpp; sourceTree = "<group>"; };
+		64FD5DF01D7093D00083AFCB /* output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = output.cpp; path = TesseractFramework/Tesseract/ccmain/output.cpp; sourceTree = "<group>"; };
+		64FD5DF11D7093D00083AFCB /* pageiterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pageiterator.cpp; path = TesseractFramework/Tesseract/ccmain/pageiterator.cpp; sourceTree = "<group>"; };
+		64FD5DF21D7093D00083AFCB /* pagesegmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pagesegmain.cpp; path = TesseractFramework/Tesseract/ccmain/pagesegmain.cpp; sourceTree = "<group>"; };
+		64FD5DF31D7093D00083AFCB /* pagewalk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pagewalk.cpp; path = TesseractFramework/Tesseract/ccmain/pagewalk.cpp; sourceTree = "<group>"; };
+		64FD5DF41D7093D00083AFCB /* par_control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = par_control.cpp; path = TesseractFramework/Tesseract/ccmain/par_control.cpp; sourceTree = "<group>"; };
+		64FD5DF51D7093D00083AFCB /* paragraphs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = paragraphs.cpp; path = TesseractFramework/Tesseract/ccmain/paragraphs.cpp; sourceTree = "<group>"; };
+		64FD5DF61D7093D00083AFCB /* paramsd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = paramsd.cpp; path = TesseractFramework/Tesseract/ccmain/paramsd.cpp; sourceTree = "<group>"; };
+		64FD5DF71D7093D00083AFCB /* pgedit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pgedit.cpp; path = TesseractFramework/Tesseract/ccmain/pgedit.cpp; sourceTree = "<group>"; };
+		64FD5DF81D7093D00083AFCB /* recogtraining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = recogtraining.cpp; path = TesseractFramework/Tesseract/ccmain/recogtraining.cpp; sourceTree = "<group>"; };
+		64FD5DF91D7093D00083AFCB /* reject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reject.cpp; path = TesseractFramework/Tesseract/ccmain/reject.cpp; sourceTree = "<group>"; };
+		64FD5DFA1D7093D00083AFCB /* resultiterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = resultiterator.cpp; path = TesseractFramework/Tesseract/ccmain/resultiterator.cpp; sourceTree = "<group>"; };
+		64FD5DFB1D7093D00083AFCB /* superscript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = superscript.cpp; path = TesseractFramework/Tesseract/ccmain/superscript.cpp; sourceTree = "<group>"; };
+		64FD5DFC1D7093D00083AFCB /* tessbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tessbox.cpp; path = TesseractFramework/Tesseract/ccmain/tessbox.cpp; sourceTree = "<group>"; };
+		64FD5DFD1D7093D00083AFCB /* tessedit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tessedit.cpp; path = TesseractFramework/Tesseract/ccmain/tessedit.cpp; sourceTree = "<group>"; };
+		64FD5DFE1D7093D00083AFCB /* tesseract_cube_combiner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tesseract_cube_combiner.cpp; path = TesseractFramework/Tesseract/ccmain/tesseract_cube_combiner.cpp; sourceTree = "<group>"; };
+		64FD5DFF1D7093D00083AFCB /* tesseractclass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tesseractclass.cpp; path = TesseractFramework/Tesseract/ccmain/tesseractclass.cpp; sourceTree = "<group>"; };
+		64FD5E001D7093D00083AFCB /* tessvars.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tessvars.cpp; path = TesseractFramework/Tesseract/ccmain/tessvars.cpp; sourceTree = "<group>"; };
+		64FD5E011D7093D00083AFCB /* tfacepp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tfacepp.cpp; path = TesseractFramework/Tesseract/ccmain/tfacepp.cpp; sourceTree = "<group>"; };
+		64FD5E021D7093D00083AFCB /* thresholder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thresholder.cpp; path = TesseractFramework/Tesseract/ccmain/thresholder.cpp; sourceTree = "<group>"; };
+		64FD5E031D7093D00083AFCB /* werdit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = werdit.cpp; path = TesseractFramework/Tesseract/ccmain/werdit.cpp; sourceTree = "<group>"; };
+		64FD5E241D7094010083AFCB /* blamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blamer.cpp; path = TesseractFramework/Tesseract/ccstruct/blamer.cpp; sourceTree = "<group>"; };
+		64FD5E251D7094010083AFCB /* blobbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blobbox.cpp; path = TesseractFramework/Tesseract/ccstruct/blobbox.cpp; sourceTree = "<group>"; };
+		64FD5E261D7094010083AFCB /* blobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blobs.cpp; path = TesseractFramework/Tesseract/ccstruct/blobs.cpp; sourceTree = "<group>"; };
+		64FD5E271D7094010083AFCB /* blread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blread.cpp; path = TesseractFramework/Tesseract/ccstruct/blread.cpp; sourceTree = "<group>"; };
+		64FD5E281D7094010083AFCB /* boxread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = boxread.cpp; path = TesseractFramework/Tesseract/ccstruct/boxread.cpp; sourceTree = "<group>"; };
+		64FD5E291D7094010083AFCB /* boxword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = boxword.cpp; path = TesseractFramework/Tesseract/ccstruct/boxword.cpp; sourceTree = "<group>"; };
+		64FD5E2A1D7094010083AFCB /* ccstruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ccstruct.cpp; path = TesseractFramework/Tesseract/ccstruct/ccstruct.cpp; sourceTree = "<group>"; };
+		64FD5E2B1D7094010083AFCB /* coutln.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coutln.cpp; path = TesseractFramework/Tesseract/ccstruct/coutln.cpp; sourceTree = "<group>"; };
+		64FD5E2C1D7094010083AFCB /* detlinefit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = detlinefit.cpp; path = TesseractFramework/Tesseract/ccstruct/detlinefit.cpp; sourceTree = "<group>"; };
+		64FD5E2D1D7094010083AFCB /* dppoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dppoint.cpp; path = TesseractFramework/Tesseract/ccstruct/dppoint.cpp; sourceTree = "<group>"; };
+		64FD5E2E1D7094010083AFCB /* fontinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fontinfo.cpp; path = TesseractFramework/Tesseract/ccstruct/fontinfo.cpp; sourceTree = "<group>"; };
+		64FD5E2F1D7094010083AFCB /* genblob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = genblob.cpp; path = TesseractFramework/Tesseract/ccstruct/genblob.cpp; sourceTree = "<group>"; };
+		64FD5E301D7094010083AFCB /* imagedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imagedata.cpp; path = TesseractFramework/Tesseract/ccstruct/imagedata.cpp; sourceTree = "<group>"; };
+		64FD5E311D7094010083AFCB /* linlsq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linlsq.cpp; path = TesseractFramework/Tesseract/ccstruct/linlsq.cpp; sourceTree = "<group>"; };
+		64FD5E321D7094010083AFCB /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matrix.cpp; path = TesseractFramework/Tesseract/ccstruct/matrix.cpp; sourceTree = "<group>"; };
+		64FD5E331D7094010083AFCB /* mod128.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mod128.cpp; path = TesseractFramework/Tesseract/ccstruct/mod128.cpp; sourceTree = "<group>"; };
+		64FD5E341D7094010083AFCB /* normalis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = normalis.cpp; path = TesseractFramework/Tesseract/ccstruct/normalis.cpp; sourceTree = "<group>"; };
+		64FD5E351D7094010083AFCB /* ocrblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ocrblock.cpp; path = TesseractFramework/Tesseract/ccstruct/ocrblock.cpp; sourceTree = "<group>"; };
+		64FD5E361D7094010083AFCB /* ocrpara.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ocrpara.cpp; path = TesseractFramework/Tesseract/ccstruct/ocrpara.cpp; sourceTree = "<group>"; };
+		64FD5E371D7094010083AFCB /* ocrrow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ocrrow.cpp; path = TesseractFramework/Tesseract/ccstruct/ocrrow.cpp; sourceTree = "<group>"; };
+		64FD5E381D7094010083AFCB /* otsuthr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = otsuthr.cpp; path = TesseractFramework/Tesseract/ccstruct/otsuthr.cpp; sourceTree = "<group>"; };
+		64FD5E391D7094010083AFCB /* pageres.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pageres.cpp; path = TesseractFramework/Tesseract/ccstruct/pageres.cpp; sourceTree = "<group>"; };
+		64FD5E3A1D7094010083AFCB /* params_training_featdef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = params_training_featdef.cpp; path = TesseractFramework/Tesseract/ccstruct/params_training_featdef.cpp; sourceTree = "<group>"; };
+		64FD5E3B1D7094010083AFCB /* pdblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pdblock.cpp; path = TesseractFramework/Tesseract/ccstruct/pdblock.cpp; sourceTree = "<group>"; };
+		64FD5E3C1D7094010083AFCB /* points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = points.cpp; path = TesseractFramework/Tesseract/ccstruct/points.cpp; sourceTree = "<group>"; };
+		64FD5E3D1D7094010083AFCB /* polyaprx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polyaprx.cpp; path = TesseractFramework/Tesseract/ccstruct/polyaprx.cpp; sourceTree = "<group>"; };
+		64FD5E3E1D7094010083AFCB /* polyblk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polyblk.cpp; path = TesseractFramework/Tesseract/ccstruct/polyblk.cpp; sourceTree = "<group>"; };
+		64FD5E3F1D7094010083AFCB /* publictypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = publictypes.cpp; path = TesseractFramework/Tesseract/ccstruct/publictypes.cpp; sourceTree = "<group>"; };
+		64FD5E401D7094010083AFCB /* quadlsq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quadlsq.cpp; path = TesseractFramework/Tesseract/ccstruct/quadlsq.cpp; sourceTree = "<group>"; };
+		64FD5E411D7094010083AFCB /* quspline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quspline.cpp; path = TesseractFramework/Tesseract/ccstruct/quspline.cpp; sourceTree = "<group>"; };
+		64FD5E421D7094010083AFCB /* ratngs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ratngs.cpp; path = TesseractFramework/Tesseract/ccstruct/ratngs.cpp; sourceTree = "<group>"; };
+		64FD5E431D7094010083AFCB /* rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rect.cpp; path = TesseractFramework/Tesseract/ccstruct/rect.cpp; sourceTree = "<group>"; };
+		64FD5E441D7094010083AFCB /* rejctmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rejctmap.cpp; path = TesseractFramework/Tesseract/ccstruct/rejctmap.cpp; sourceTree = "<group>"; };
+		64FD5E451D7094010083AFCB /* seam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = seam.cpp; path = TesseractFramework/Tesseract/ccstruct/seam.cpp; sourceTree = "<group>"; };
+		64FD5E461D7094010083AFCB /* split.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = split.cpp; path = TesseractFramework/Tesseract/ccstruct/split.cpp; sourceTree = "<group>"; };
+		64FD5E471D7094010083AFCB /* statistc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistc.cpp; path = TesseractFramework/Tesseract/ccstruct/statistc.cpp; sourceTree = "<group>"; };
+		64FD5E481D7094010083AFCB /* stepblob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stepblob.cpp; path = TesseractFramework/Tesseract/ccstruct/stepblob.cpp; sourceTree = "<group>"; };
+		64FD5E491D7094010083AFCB /* vecfuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vecfuncs.cpp; path = TesseractFramework/Tesseract/ccstruct/vecfuncs.cpp; sourceTree = "<group>"; };
+		64FD5E4A1D7094010083AFCB /* werd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = werd.cpp; path = TesseractFramework/Tesseract/ccstruct/werd.cpp; sourceTree = "<group>"; };
+		64FD5E721D70942E0083AFCB /* ambigs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ambigs.cpp; path = TesseractFramework/Tesseract/ccutil/ambigs.cpp; sourceTree = "<group>"; };
+		64FD5E731D70942E0083AFCB /* basedir.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = basedir.cpp; path = TesseractFramework/Tesseract/ccutil/basedir.cpp; sourceTree = "<group>"; };
+		64FD5E741D70942E0083AFCB /* bits16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bits16.cpp; path = TesseractFramework/Tesseract/ccutil/bits16.cpp; sourceTree = "<group>"; };
+		64FD5E751D70942E0083AFCB /* bitvector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitvector.cpp; path = TesseractFramework/Tesseract/ccutil/bitvector.cpp; sourceTree = "<group>"; };
+		64FD5E761D70942E0083AFCB /* ccutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ccutil.cpp; path = TesseractFramework/Tesseract/ccutil/ccutil.cpp; sourceTree = "<group>"; };
+		64FD5E771D70942E0083AFCB /* clst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clst.cpp; path = TesseractFramework/Tesseract/ccutil/clst.cpp; sourceTree = "<group>"; };
+		64FD5E781D70942E0083AFCB /* elst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = elst.cpp; path = TesseractFramework/Tesseract/ccutil/elst.cpp; sourceTree = "<group>"; };
+		64FD5E791D70942E0083AFCB /* elst2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = elst2.cpp; path = TesseractFramework/Tesseract/ccutil/elst2.cpp; sourceTree = "<group>"; };
+		64FD5E7A1D70942E0083AFCB /* errcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = errcode.cpp; path = TesseractFramework/Tesseract/ccutil/errcode.cpp; sourceTree = "<group>"; };
+		64FD5E7B1D70942E0083AFCB /* globaloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = globaloc.cpp; path = TesseractFramework/Tesseract/ccutil/globaloc.cpp; sourceTree = "<group>"; };
+		64FD5E7C1D70942E0083AFCB /* indexmapbidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = indexmapbidi.cpp; path = TesseractFramework/Tesseract/ccutil/indexmapbidi.cpp; sourceTree = "<group>"; };
+		64FD5E7D1D70942E0083AFCB /* mainblk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mainblk.cpp; path = TesseractFramework/Tesseract/ccutil/mainblk.cpp; sourceTree = "<group>"; };
+		64FD5E7E1D70942E0083AFCB /* params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = params.cpp; path = TesseractFramework/Tesseract/ccutil/params.cpp; sourceTree = "<group>"; };
+		64FD5E7F1D70942E0083AFCB /* scanutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scanutils.cpp; path = TesseractFramework/Tesseract/ccutil/scanutils.cpp; sourceTree = "<group>"; };
+		64FD5E801D70942E0083AFCB /* serialis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = serialis.cpp; path = TesseractFramework/Tesseract/ccutil/serialis.cpp; sourceTree = "<group>"; };
+		64FD5E811D70942E0083AFCB /* strngs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strngs.cpp; path = TesseractFramework/Tesseract/ccutil/strngs.cpp; sourceTree = "<group>"; };
+		64FD5E821D70942E0083AFCB /* tessdatamanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tessdatamanager.cpp; path = TesseractFramework/Tesseract/ccutil/tessdatamanager.cpp; sourceTree = "<group>"; };
+		64FD5E831D70942E0083AFCB /* tprintf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tprintf.cpp; path = TesseractFramework/Tesseract/ccutil/tprintf.cpp; sourceTree = "<group>"; };
+		64FD5E841D70942E0083AFCB /* unichar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unichar.cpp; path = TesseractFramework/Tesseract/ccutil/unichar.cpp; sourceTree = "<group>"; };
+		64FD5E851D70942E0083AFCB /* unicharmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unicharmap.cpp; path = TesseractFramework/Tesseract/ccutil/unicharmap.cpp; sourceTree = "<group>"; };
+		64FD5E861D70942E0083AFCB /* unicharset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unicharset.cpp; path = TesseractFramework/Tesseract/ccutil/unicharset.cpp; sourceTree = "<group>"; };
+		64FD5E871D70942E0083AFCB /* unicodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unicodes.cpp; path = TesseractFramework/Tesseract/ccutil/unicodes.cpp; sourceTree = "<group>"; };
+		64FD5E881D70942E0083AFCB /* universalambigs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = universalambigs.cpp; path = TesseractFramework/Tesseract/ccutil/universalambigs.cpp; sourceTree = "<group>"; };
+		64FD5EA01D7094650083AFCB /* adaptive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adaptive.cpp; path = TesseractFramework/Tesseract/classify/adaptive.cpp; sourceTree = "<group>"; };
+		64FD5EA11D7094650083AFCB /* adaptmatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adaptmatch.cpp; path = TesseractFramework/Tesseract/classify/adaptmatch.cpp; sourceTree = "<group>"; };
+		64FD5EA21D7094650083AFCB /* blobclass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blobclass.cpp; path = TesseractFramework/Tesseract/classify/blobclass.cpp; sourceTree = "<group>"; };
+		64FD5EA31D7094650083AFCB /* classify.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = classify.cpp; path = TesseractFramework/Tesseract/classify/classify.cpp; sourceTree = "<group>"; };
+		64FD5EA41D7094650083AFCB /* cluster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cluster.cpp; path = TesseractFramework/Tesseract/classify/cluster.cpp; sourceTree = "<group>"; };
+		64FD5EA51D7094650083AFCB /* clusttool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clusttool.cpp; path = TesseractFramework/Tesseract/classify/clusttool.cpp; sourceTree = "<group>"; };
+		64FD5EA61D7094650083AFCB /* cutoffs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cutoffs.cpp; path = TesseractFramework/Tesseract/classify/cutoffs.cpp; sourceTree = "<group>"; };
+		64FD5EA71D7094650083AFCB /* errorcounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = errorcounter.cpp; path = TesseractFramework/Tesseract/classify/errorcounter.cpp; sourceTree = "<group>"; };
+		64FD5EA81D7094650083AFCB /* featdefs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = featdefs.cpp; path = TesseractFramework/Tesseract/classify/featdefs.cpp; sourceTree = "<group>"; };
+		64FD5EA91D7094650083AFCB /* float2int.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = float2int.cpp; path = TesseractFramework/Tesseract/classify/float2int.cpp; sourceTree = "<group>"; };
+		64FD5EAA1D7094650083AFCB /* fpoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fpoint.cpp; path = TesseractFramework/Tesseract/classify/fpoint.cpp; sourceTree = "<group>"; };
+		64FD5EAB1D7094650083AFCB /* intfeaturedist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intfeaturedist.cpp; path = TesseractFramework/Tesseract/classify/intfeaturedist.cpp; sourceTree = "<group>"; };
+		64FD5EAC1D7094650083AFCB /* intfeaturemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intfeaturemap.cpp; path = TesseractFramework/Tesseract/classify/intfeaturemap.cpp; sourceTree = "<group>"; };
+		64FD5EAD1D7094650083AFCB /* intfeaturespace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intfeaturespace.cpp; path = TesseractFramework/Tesseract/classify/intfeaturespace.cpp; sourceTree = "<group>"; };
+		64FD5EAE1D7094650083AFCB /* intfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intfx.cpp; path = TesseractFramework/Tesseract/classify/intfx.cpp; sourceTree = "<group>"; };
+		64FD5EAF1D7094650083AFCB /* intmatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intmatcher.cpp; path = TesseractFramework/Tesseract/classify/intmatcher.cpp; sourceTree = "<group>"; };
+		64FD5EB01D7094650083AFCB /* intproto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intproto.cpp; path = TesseractFramework/Tesseract/classify/intproto.cpp; sourceTree = "<group>"; };
+		64FD5EB11D7094650083AFCB /* kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kdtree.cpp; path = TesseractFramework/Tesseract/classify/kdtree.cpp; sourceTree = "<group>"; };
+		64FD5EB21D7094650083AFCB /* mastertrainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mastertrainer.cpp; path = TesseractFramework/Tesseract/classify/mastertrainer.cpp; sourceTree = "<group>"; };
+		64FD5EB31D7094650083AFCB /* mf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mf.cpp; path = TesseractFramework/Tesseract/classify/mf.cpp; sourceTree = "<group>"; };
+		64FD5EB41D7094650083AFCB /* mfdefs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mfdefs.cpp; path = TesseractFramework/Tesseract/classify/mfdefs.cpp; sourceTree = "<group>"; };
+		64FD5EB51D7094650083AFCB /* mfoutline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mfoutline.cpp; path = TesseractFramework/Tesseract/classify/mfoutline.cpp; sourceTree = "<group>"; };
+		64FD5EB61D7094650083AFCB /* mfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mfx.cpp; path = TesseractFramework/Tesseract/classify/mfx.cpp; sourceTree = "<group>"; };
+		64FD5EB71D7094650083AFCB /* normfeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = normfeat.cpp; path = TesseractFramework/Tesseract/classify/normfeat.cpp; sourceTree = "<group>"; };
+		64FD5EB81D7094650083AFCB /* normmatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = normmatch.cpp; path = TesseractFramework/Tesseract/classify/normmatch.cpp; sourceTree = "<group>"; };
+		64FD5EB91D7094650083AFCB /* ocrfeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ocrfeatures.cpp; path = TesseractFramework/Tesseract/classify/ocrfeatures.cpp; sourceTree = "<group>"; };
+		64FD5EBA1D7094650083AFCB /* outfeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = outfeat.cpp; path = TesseractFramework/Tesseract/classify/outfeat.cpp; sourceTree = "<group>"; };
+		64FD5EBB1D7094650083AFCB /* picofeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = picofeat.cpp; path = TesseractFramework/Tesseract/classify/picofeat.cpp; sourceTree = "<group>"; };
+		64FD5EBC1D7094650083AFCB /* protos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = protos.cpp; path = TesseractFramework/Tesseract/classify/protos.cpp; sourceTree = "<group>"; };
+		64FD5EBD1D7094650083AFCB /* sampleiterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sampleiterator.cpp; path = TesseractFramework/Tesseract/classify/sampleiterator.cpp; sourceTree = "<group>"; };
+		64FD5EBE1D7094650083AFCB /* shapeclassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shapeclassifier.cpp; path = TesseractFramework/Tesseract/classify/shapeclassifier.cpp; sourceTree = "<group>"; };
+		64FD5EBF1D7094650083AFCB /* shapetable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shapetable.cpp; path = TesseractFramework/Tesseract/classify/shapetable.cpp; sourceTree = "<group>"; };
+		64FD5EC01D7094650083AFCB /* tessclassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tessclassifier.cpp; path = TesseractFramework/Tesseract/classify/tessclassifier.cpp; sourceTree = "<group>"; };
+		64FD5EC11D7094650083AFCB /* trainingsample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trainingsample.cpp; path = TesseractFramework/Tesseract/classify/trainingsample.cpp; sourceTree = "<group>"; };
+		64FD5EC21D7094650083AFCB /* trainingsampleset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trainingsampleset.cpp; path = TesseractFramework/Tesseract/classify/trainingsampleset.cpp; sourceTree = "<group>"; };
+		64FD5EE61D7094910083AFCB /* altlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = altlist.cpp; path = TesseractFramework/Tesseract/cube/altlist.cpp; sourceTree = "<group>"; };
+		64FD5EE71D7094910083AFCB /* beam_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = beam_search.cpp; path = TesseractFramework/Tesseract/cube/beam_search.cpp; sourceTree = "<group>"; };
+		64FD5EE81D7094910083AFCB /* bmp_8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bmp_8.cpp; path = TesseractFramework/Tesseract/cube/bmp_8.cpp; sourceTree = "<group>"; };
+		64FD5EE91D7094910083AFCB /* cached_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cached_file.cpp; path = TesseractFramework/Tesseract/cube/cached_file.cpp; sourceTree = "<group>"; };
+		64FD5EEA1D7094910083AFCB /* char_altlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_altlist.cpp; path = TesseractFramework/Tesseract/cube/char_altlist.cpp; sourceTree = "<group>"; };
+		64FD5EEB1D7094910083AFCB /* char_bigrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_bigrams.cpp; path = TesseractFramework/Tesseract/cube/char_bigrams.cpp; sourceTree = "<group>"; };
+		64FD5EEC1D7094910083AFCB /* char_samp_enum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_samp_enum.cpp; path = TesseractFramework/Tesseract/cube/char_samp_enum.cpp; sourceTree = "<group>"; };
+		64FD5EED1D7094910083AFCB /* char_samp_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_samp_set.cpp; path = TesseractFramework/Tesseract/cube/char_samp_set.cpp; sourceTree = "<group>"; };
+		64FD5EEE1D7094910083AFCB /* char_samp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_samp.cpp; path = TesseractFramework/Tesseract/cube/char_samp.cpp; sourceTree = "<group>"; };
+		64FD5EEF1D7094910083AFCB /* char_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = char_set.cpp; path = TesseractFramework/Tesseract/cube/char_set.cpp; sourceTree = "<group>"; };
+		64FD5EF01D7094910083AFCB /* classifier_factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = classifier_factory.cpp; path = TesseractFramework/Tesseract/cube/classifier_factory.cpp; sourceTree = "<group>"; };
+		64FD5EF11D7094910083AFCB /* con_comp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = con_comp.cpp; path = TesseractFramework/Tesseract/cube/con_comp.cpp; sourceTree = "<group>"; };
+		64FD5EF21D7094910083AFCB /* conv_net_classifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = conv_net_classifier.cpp; path = TesseractFramework/Tesseract/cube/conv_net_classifier.cpp; sourceTree = "<group>"; };
+		64FD5EF31D7094910083AFCB /* cube_line_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_line_object.cpp; path = TesseractFramework/Tesseract/cube/cube_line_object.cpp; sourceTree = "<group>"; };
+		64FD5EF41D7094910083AFCB /* cube_line_segmenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_line_segmenter.cpp; path = TesseractFramework/Tesseract/cube/cube_line_segmenter.cpp; sourceTree = "<group>"; };
+		64FD5EF51D7094910083AFCB /* cube_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_object.cpp; path = TesseractFramework/Tesseract/cube/cube_object.cpp; sourceTree = "<group>"; };
+		64FD5EF61D7094910083AFCB /* cube_search_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_search_object.cpp; path = TesseractFramework/Tesseract/cube/cube_search_object.cpp; sourceTree = "<group>"; };
+		64FD5EF71D7094910083AFCB /* cube_tuning_params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_tuning_params.cpp; path = TesseractFramework/Tesseract/cube/cube_tuning_params.cpp; sourceTree = "<group>"; };
+		64FD5EF81D7094910083AFCB /* cube_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cube_utils.cpp; path = TesseractFramework/Tesseract/cube/cube_utils.cpp; sourceTree = "<group>"; };
+		64FD5EF91D7094910083AFCB /* feature_bmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = feature_bmp.cpp; path = TesseractFramework/Tesseract/cube/feature_bmp.cpp; sourceTree = "<group>"; };
+		64FD5EFA1D7094910083AFCB /* feature_chebyshev.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = feature_chebyshev.cpp; path = TesseractFramework/Tesseract/cube/feature_chebyshev.cpp; sourceTree = "<group>"; };
+		64FD5EFB1D7094910083AFCB /* feature_hybrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = feature_hybrid.cpp; path = TesseractFramework/Tesseract/cube/feature_hybrid.cpp; sourceTree = "<group>"; };
+		64FD5EFC1D7094910083AFCB /* hybrid_neural_net_classifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hybrid_neural_net_classifier.cpp; path = TesseractFramework/Tesseract/cube/hybrid_neural_net_classifier.cpp; sourceTree = "<group>"; };
+		64FD5EFD1D7094910083AFCB /* search_column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search_column.cpp; path = TesseractFramework/Tesseract/cube/search_column.cpp; sourceTree = "<group>"; };
+		64FD5EFE1D7094910083AFCB /* search_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search_node.cpp; path = TesseractFramework/Tesseract/cube/search_node.cpp; sourceTree = "<group>"; };
+		64FD5EFF1D7094910083AFCB /* tess_lang_mod_edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tess_lang_mod_edge.cpp; path = TesseractFramework/Tesseract/cube/tess_lang_mod_edge.cpp; sourceTree = "<group>"; };
+		64FD5F001D7094910083AFCB /* tess_lang_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tess_lang_model.cpp; path = TesseractFramework/Tesseract/cube/tess_lang_model.cpp; sourceTree = "<group>"; };
+		64FD5F011D7094910083AFCB /* word_altlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = word_altlist.cpp; path = TesseractFramework/Tesseract/cube/word_altlist.cpp; sourceTree = "<group>"; };
+		64FD5F021D7094910083AFCB /* word_list_lang_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = word_list_lang_model.cpp; path = TesseractFramework/Tesseract/cube/word_list_lang_model.cpp; sourceTree = "<group>"; };
+		64FD5F031D7094910083AFCB /* word_size_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = word_size_model.cpp; path = TesseractFramework/Tesseract/cube/word_size_model.cpp; sourceTree = "<group>"; };
+		64FD5F041D7094910083AFCB /* word_unigrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = word_unigrams.cpp; path = TesseractFramework/Tesseract/cube/word_unigrams.cpp; sourceTree = "<group>"; };
+		64FD5F241D7094AC0083AFCB /* bitvec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitvec.cpp; path = TesseractFramework/Tesseract/cutil/bitvec.cpp; sourceTree = "<group>"; };
+		64FD5F251D7094AC0083AFCB /* callcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = callcpp.cpp; path = TesseractFramework/Tesseract/cutil/callcpp.cpp; sourceTree = "<group>"; };
+		64FD5F261D7094AC0083AFCB /* cutil_class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cutil_class.cpp; path = TesseractFramework/Tesseract/cutil/cutil_class.cpp; sourceTree = "<group>"; };
+		64FD5F271D7094AC0083AFCB /* cutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cutil.cpp; path = TesseractFramework/Tesseract/cutil/cutil.cpp; sourceTree = "<group>"; };
+		64FD5F281D7094AC0083AFCB /* danerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = danerror.cpp; path = TesseractFramework/Tesseract/cutil/danerror.cpp; sourceTree = "<group>"; };
+		64FD5F291D7094AC0083AFCB /* efio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = efio.cpp; path = TesseractFramework/Tesseract/cutil/efio.cpp; sourceTree = "<group>"; };
+		64FD5F2A1D7094AC0083AFCB /* emalloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = emalloc.cpp; path = TesseractFramework/Tesseract/cutil/emalloc.cpp; sourceTree = "<group>"; };
+		64FD5F2B1D7094AC0083AFCB /* freelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = freelist.cpp; path = TesseractFramework/Tesseract/cutil/freelist.cpp; sourceTree = "<group>"; };
+		64FD5F2C1D7094AC0083AFCB /* listio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = listio.cpp; path = TesseractFramework/Tesseract/cutil/listio.cpp; sourceTree = "<group>"; };
+		64FD5F2D1D7094AC0083AFCB /* oldlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oldlist.cpp; path = TesseractFramework/Tesseract/cutil/oldlist.cpp; sourceTree = "<group>"; };
+		64FD5F2E1D7094AC0083AFCB /* structures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = structures.cpp; path = TesseractFramework/Tesseract/cutil/structures.cpp; sourceTree = "<group>"; };
+		64FD5F3A1D7094C10083AFCB /* context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = context.cpp; path = TesseractFramework/Tesseract/dict/context.cpp; sourceTree = "<group>"; };
+		64FD5F3B1D7094C10083AFCB /* dawg_cache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dawg_cache.cpp; path = TesseractFramework/Tesseract/dict/dawg_cache.cpp; sourceTree = "<group>"; };
+		64FD5F3C1D7094C10083AFCB /* dawg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dawg.cpp; path = TesseractFramework/Tesseract/dict/dawg.cpp; sourceTree = "<group>"; };
+		64FD5F3D1D7094C10083AFCB /* dict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dict.cpp; path = TesseractFramework/Tesseract/dict/dict.cpp; sourceTree = "<group>"; };
+		64FD5F3E1D7094C10083AFCB /* hyphen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hyphen.cpp; path = TesseractFramework/Tesseract/dict/hyphen.cpp; sourceTree = "<group>"; };
+		64FD5F3F1D7094C10083AFCB /* permdawg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = permdawg.cpp; path = TesseractFramework/Tesseract/dict/permdawg.cpp; sourceTree = "<group>"; };
+		64FD5F401D7094C10083AFCB /* stopper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stopper.cpp; path = TesseractFramework/Tesseract/dict/stopper.cpp; sourceTree = "<group>"; };
+		64FD5F411D7094C10083AFCB /* trie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trie.cpp; path = TesseractFramework/Tesseract/dict/trie.cpp; sourceTree = "<group>"; };
+		64FD5F4A1D7094D20083AFCB /* input_file_buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = input_file_buffer.cpp; path = TesseractFramework/Tesseract/neural_networks/runtime/input_file_buffer.cpp; sourceTree = "<group>"; };
+		64FD5F4B1D7094D20083AFCB /* neural_net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = neural_net.cpp; path = TesseractFramework/Tesseract/neural_networks/runtime/neural_net.cpp; sourceTree = "<group>"; };
+		64FD5F4C1D7094D20083AFCB /* neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = neuron.cpp; path = TesseractFramework/Tesseract/neural_networks/runtime/neuron.cpp; sourceTree = "<group>"; };
+		64FD5F4D1D7094D20083AFCB /* sigmoid_table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sigmoid_table.cpp; path = TesseractFramework/Tesseract/neural_networks/runtime/sigmoid_table.cpp; sourceTree = "<group>"; };
+		64FD5F521D7094DD0083AFCB /* openclwrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = openclwrapper.cpp; path = TesseractFramework/Tesseract/opencl/openclwrapper.cpp; sourceTree = "<group>"; };
+		64FD5F541D7095150083AFCB /* alignedblob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alignedblob.cpp; path = TesseractFramework/Tesseract/textord/alignedblob.cpp; sourceTree = "<group>"; };
+		64FD5F551D7095150083AFCB /* baselinedetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = baselinedetect.cpp; path = TesseractFramework/Tesseract/textord/baselinedetect.cpp; sourceTree = "<group>"; };
+		64FD5F561D7095150083AFCB /* bbgrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bbgrid.cpp; path = TesseractFramework/Tesseract/textord/bbgrid.cpp; sourceTree = "<group>"; };
+		64FD5F571D7095150083AFCB /* blkocc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blkocc.cpp; path = TesseractFramework/Tesseract/textord/blkocc.cpp; sourceTree = "<group>"; };
+		64FD5F581D7095150083AFCB /* blobgrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blobgrid.cpp; path = TesseractFramework/Tesseract/textord/blobgrid.cpp; sourceTree = "<group>"; };
+		64FD5F591D7095150083AFCB /* ccnontextdetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ccnontextdetect.cpp; path = TesseractFramework/Tesseract/textord/ccnontextdetect.cpp; sourceTree = "<group>"; };
+		64FD5F5A1D7095150083AFCB /* cjkpitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cjkpitch.cpp; path = TesseractFramework/Tesseract/textord/cjkpitch.cpp; sourceTree = "<group>"; };
+		64FD5F5B1D7095150083AFCB /* colfind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colfind.cpp; path = TesseractFramework/Tesseract/textord/colfind.cpp; sourceTree = "<group>"; };
+		64FD5F5C1D7095150083AFCB /* colpartition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colpartition.cpp; path = TesseractFramework/Tesseract/textord/colpartition.cpp; sourceTree = "<group>"; };
+		64FD5F5D1D7095150083AFCB /* colpartitiongrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colpartitiongrid.cpp; path = TesseractFramework/Tesseract/textord/colpartitiongrid.cpp; sourceTree = "<group>"; };
+		64FD5F5E1D7095150083AFCB /* colpartitionset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colpartitionset.cpp; path = TesseractFramework/Tesseract/textord/colpartitionset.cpp; sourceTree = "<group>"; };
+		64FD5F5F1D7095150083AFCB /* devanagari_processing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = devanagari_processing.cpp; path = TesseractFramework/Tesseract/textord/devanagari_processing.cpp; sourceTree = "<group>"; };
+		64FD5F601D7095150083AFCB /* drawedg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawedg.cpp; path = TesseractFramework/Tesseract/textord/drawedg.cpp; sourceTree = "<group>"; };
+		64FD5F611D7095150083AFCB /* drawtord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawtord.cpp; path = TesseractFramework/Tesseract/textord/drawtord.cpp; sourceTree = "<group>"; };
+		64FD5F621D7095150083AFCB /* edgblob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = edgblob.cpp; path = TesseractFramework/Tesseract/textord/edgblob.cpp; sourceTree = "<group>"; };
+		64FD5F631D7095150083AFCB /* edgloop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = edgloop.cpp; path = TesseractFramework/Tesseract/textord/edgloop.cpp; sourceTree = "<group>"; };
+		64FD5F641D7095150083AFCB /* equationdetectbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = equationdetectbase.cpp; path = TesseractFramework/Tesseract/textord/equationdetectbase.cpp; sourceTree = "<group>"; };
+		64FD5F651D7095150083AFCB /* fpchop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fpchop.cpp; path = TesseractFramework/Tesseract/textord/fpchop.cpp; sourceTree = "<group>"; };
+		64FD5F661D7095150083AFCB /* gap_map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gap_map.cpp; path = TesseractFramework/Tesseract/textord/gap_map.cpp; sourceTree = "<group>"; };
+		64FD5F671D7095150083AFCB /* imagefind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imagefind.cpp; path = TesseractFramework/Tesseract/textord/imagefind.cpp; sourceTree = "<group>"; };
+		64FD5F681D7095150083AFCB /* linefind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linefind.cpp; path = TesseractFramework/Tesseract/textord/linefind.cpp; sourceTree = "<group>"; };
+		64FD5F691D7095150083AFCB /* makerow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = makerow.cpp; path = TesseractFramework/Tesseract/textord/makerow.cpp; sourceTree = "<group>"; };
+		64FD5F6A1D7095150083AFCB /* oldbasel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oldbasel.cpp; path = TesseractFramework/Tesseract/textord/oldbasel.cpp; sourceTree = "<group>"; };
+		64FD5F6B1D7095150083AFCB /* pithsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pithsync.cpp; path = TesseractFramework/Tesseract/textord/pithsync.cpp; sourceTree = "<group>"; };
+		64FD5F6C1D7095150083AFCB /* pitsync1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pitsync1.cpp; path = TesseractFramework/Tesseract/textord/pitsync1.cpp; sourceTree = "<group>"; };
+		64FD5F6D1D7095150083AFCB /* scanedg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scanedg.cpp; path = TesseractFramework/Tesseract/textord/scanedg.cpp; sourceTree = "<group>"; };
+		64FD5F6E1D7095150083AFCB /* sortflts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sortflts.cpp; path = TesseractFramework/Tesseract/textord/sortflts.cpp; sourceTree = "<group>"; };
+		64FD5F6F1D7095150083AFCB /* strokewidth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strokewidth.cpp; path = TesseractFramework/Tesseract/textord/strokewidth.cpp; sourceTree = "<group>"; };
+		64FD5F701D7095150083AFCB /* tabfind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tabfind.cpp; path = TesseractFramework/Tesseract/textord/tabfind.cpp; sourceTree = "<group>"; };
+		64FD5F711D7095150083AFCB /* tablefind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tablefind.cpp; path = TesseractFramework/Tesseract/textord/tablefind.cpp; sourceTree = "<group>"; };
+		64FD5F721D7095150083AFCB /* tablerecog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tablerecog.cpp; path = TesseractFramework/Tesseract/textord/tablerecog.cpp; sourceTree = "<group>"; };
+		64FD5F731D7095150083AFCB /* tabvector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tabvector.cpp; path = TesseractFramework/Tesseract/textord/tabvector.cpp; sourceTree = "<group>"; };
+		64FD5F741D7095150083AFCB /* textlineprojection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = textlineprojection.cpp; path = TesseractFramework/Tesseract/textord/textlineprojection.cpp; sourceTree = "<group>"; };
+		64FD5F751D7095150083AFCB /* textord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = textord.cpp; path = TesseractFramework/Tesseract/textord/textord.cpp; sourceTree = "<group>"; };
+		64FD5F761D7095150083AFCB /* topitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = topitch.cpp; path = TesseractFramework/Tesseract/textord/topitch.cpp; sourceTree = "<group>"; };
+		64FD5F771D7095150083AFCB /* tordmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tordmain.cpp; path = TesseractFramework/Tesseract/textord/tordmain.cpp; sourceTree = "<group>"; };
+		64FD5F781D7095150083AFCB /* tospace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tospace.cpp; path = TesseractFramework/Tesseract/textord/tospace.cpp; sourceTree = "<group>"; };
+		64FD5F791D7095150083AFCB /* tovars.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tovars.cpp; path = TesseractFramework/Tesseract/textord/tovars.cpp; sourceTree = "<group>"; };
+		64FD5F7A1D7095150083AFCB /* underlin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = underlin.cpp; path = TesseractFramework/Tesseract/textord/underlin.cpp; sourceTree = "<group>"; };
+		64FD5F7B1D7095150083AFCB /* wordseg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wordseg.cpp; path = TesseractFramework/Tesseract/textord/wordseg.cpp; sourceTree = "<group>"; };
+		64FD5F7C1D7095150083AFCB /* workingpartset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = workingpartset.cpp; path = TesseractFramework/Tesseract/textord/workingpartset.cpp; sourceTree = "<group>"; };
+		64FD5FA61D7095340083AFCB /* associate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = associate.cpp; path = TesseractFramework/Tesseract/wordrec/associate.cpp; sourceTree = "<group>"; };
+		64FD5FA71D7095340083AFCB /* chop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chop.cpp; path = TesseractFramework/Tesseract/wordrec/chop.cpp; sourceTree = "<group>"; };
+		64FD5FA81D7095340083AFCB /* chopper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chopper.cpp; path = TesseractFramework/Tesseract/wordrec/chopper.cpp; sourceTree = "<group>"; };
+		64FD5FA91D7095340083AFCB /* drawfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawfx.cpp; path = TesseractFramework/Tesseract/wordrec/drawfx.cpp; sourceTree = "<group>"; };
+		64FD5FAA1D7095340083AFCB /* findseam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = findseam.cpp; path = TesseractFramework/Tesseract/wordrec/findseam.cpp; sourceTree = "<group>"; };
+		64FD5FAB1D7095340083AFCB /* gradechop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gradechop.cpp; path = TesseractFramework/Tesseract/wordrec/gradechop.cpp; sourceTree = "<group>"; };
+		64FD5FAC1D7095340083AFCB /* language_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = language_model.cpp; path = TesseractFramework/Tesseract/wordrec/language_model.cpp; sourceTree = "<group>"; };
+		64FD5FAD1D7095340083AFCB /* lm_consistency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lm_consistency.cpp; path = TesseractFramework/Tesseract/wordrec/lm_consistency.cpp; sourceTree = "<group>"; };
+		64FD5FAE1D7095340083AFCB /* lm_pain_points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lm_pain_points.cpp; path = TesseractFramework/Tesseract/wordrec/lm_pain_points.cpp; sourceTree = "<group>"; };
+		64FD5FAF1D7095340083AFCB /* lm_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lm_state.cpp; path = TesseractFramework/Tesseract/wordrec/lm_state.cpp; sourceTree = "<group>"; };
+		64FD5FB01D7095340083AFCB /* outlines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = outlines.cpp; path = TesseractFramework/Tesseract/wordrec/outlines.cpp; sourceTree = "<group>"; };
+		64FD5FB11D7095340083AFCB /* params_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = params_model.cpp; path = TesseractFramework/Tesseract/wordrec/params_model.cpp; sourceTree = "<group>"; };
+		64FD5FB21D7095340083AFCB /* pieces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pieces.cpp; path = TesseractFramework/Tesseract/wordrec/pieces.cpp; sourceTree = "<group>"; };
+		64FD5FB31D7095340083AFCB /* plotedges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plotedges.cpp; path = TesseractFramework/Tesseract/wordrec/plotedges.cpp; sourceTree = "<group>"; };
+		64FD5FB41D7095340083AFCB /* render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = render.cpp; path = TesseractFramework/Tesseract/wordrec/render.cpp; sourceTree = "<group>"; };
+		64FD5FB51D7095340083AFCB /* segsearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = segsearch.cpp; path = TesseractFramework/Tesseract/wordrec/segsearch.cpp; sourceTree = "<group>"; };
+		64FD5FB61D7095340083AFCB /* tface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tface.cpp; path = TesseractFramework/Tesseract/wordrec/tface.cpp; sourceTree = "<group>"; };
+		64FD5FB71D7095340083AFCB /* wordclass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wordclass.cpp; path = TesseractFramework/Tesseract/wordrec/wordclass.cpp; sourceTree = "<group>"; };
+		64FD5FB81D7095340083AFCB /* wordrec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wordrec.cpp; path = TesseractFramework/Tesseract/wordrec/wordrec.cpp; sourceTree = "<group>"; };
+		64FD613E1D70A2A60083AFCB /* scrollview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scrollview.cpp; path = TesseractFramework/Tesseract/viewer/scrollview.cpp; sourceTree = "<group>"; };
+		64FD613F1D70A2A60083AFCB /* svmnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = svmnode.cpp; path = TesseractFramework/Tesseract/viewer/svmnode.cpp; sourceTree = "<group>"; };
+		64FD61401D70A2A60083AFCB /* svpaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = svpaint.cpp; path = TesseractFramework/Tesseract/viewer/svpaint.cpp; sourceTree = "<group>"; };
+		64FD61411D70A2A60083AFCB /* svutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = svutil.cpp; path = TesseractFramework/Tesseract/viewer/svutil.cpp; sourceTree = "<group>"; };
+		64FD631E1D70BC1D0083AFCB /* memry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = memry.cpp; path = TesseractFramework/Tesseract/ccutil/memry.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FD5D7F1D708D380083AFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6438C2231D70ECED003EB71B /* LeptonicaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6438C21C1D70ECE6003EB71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6438C2201D70ECE6003EB71B /* LeptonicaFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FD5D791D708D380083AFCB = {
+			isa = PBXGroup;
+			children = (
+				64FD61361D709B690083AFCB /* Libraries */,
+				64FD5D851D708D380083AFCB /* TesseractFramework */,
+				64FD5D841D708D380083AFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FD5D841D708D380083AFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FD5D831D708D380083AFCB /* TesseractFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FD5D851D708D380083AFCB /* TesseractFramework */ = {
+			isa = PBXGroup;
+			children = (
+				64FD5D861D708D380083AFCB /* TesseractFramework.h */,
+				64FD5D881D708D380083AFCB /* Info.plist */,
+			);
+			path = TesseractFramework;
+			sourceTree = "<group>";
+		};
+		64FD5D8E1D708E050083AFCB /* Tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				64FD5DE41D7093D00083AFCB /* adaptions.cpp */,
+				64FD5EA01D7094650083AFCB /* adaptive.cpp */,
+				64FD5EA11D7094650083AFCB /* adaptmatch.cpp */,
+				64FD5F541D7095150083AFCB /* alignedblob.cpp */,
+				64FD5EE61D7094910083AFCB /* altlist.cpp */,
+				64FD5E721D70942E0083AFCB /* ambigs.cpp */,
+				64FD5DE51D7093D00083AFCB /* applybox.cpp */,
+				64FD5FA61D7095340083AFCB /* associate.cpp */,
+				64FD5DDA1D7093A60083AFCB /* baseapi.cpp */,
+				64FD5E731D70942E0083AFCB /* basedir.cpp */,
+				64FD5F551D7095150083AFCB /* baselinedetect.cpp */,
+				64FD5F561D7095150083AFCB /* bbgrid.cpp */,
+				64FD5EE71D7094910083AFCB /* beam_search.cpp */,
+				64FD5E741D70942E0083AFCB /* bits16.cpp */,
+				64FD5F241D7094AC0083AFCB /* bitvec.cpp */,
+				64FD5E751D70942E0083AFCB /* bitvector.cpp */,
+				64FD5E241D7094010083AFCB /* blamer.cpp */,
+				64FD5F571D7095150083AFCB /* blkocc.cpp */,
+				64FD5E251D7094010083AFCB /* blobbox.cpp */,
+				64FD5EA21D7094650083AFCB /* blobclass.cpp */,
+				64FD5F581D7095150083AFCB /* blobgrid.cpp */,
+				64FD5E261D7094010083AFCB /* blobs.cpp */,
+				64FD5E271D7094010083AFCB /* blread.cpp */,
+				64FD5EE81D7094910083AFCB /* bmp_8.cpp */,
+				64FD5E281D7094010083AFCB /* boxread.cpp */,
+				64FD5E291D7094010083AFCB /* boxword.cpp */,
+				64FD5EE91D7094910083AFCB /* cached_file.cpp */,
+				64FD5F251D7094AC0083AFCB /* callcpp.cpp */,
+				64FD5DDB1D7093A60083AFCB /* capi.cpp */,
+				64FD5F591D7095150083AFCB /* ccnontextdetect.cpp */,
+				64FD5E2A1D7094010083AFCB /* ccstruct.cpp */,
+				64FD5E761D70942E0083AFCB /* ccutil.cpp */,
+				64FD5EEA1D7094910083AFCB /* char_altlist.cpp */,
+				64FD5EEB1D7094910083AFCB /* char_bigrams.cpp */,
+				64FD5EEC1D7094910083AFCB /* char_samp_enum.cpp */,
+				64FD5EED1D7094910083AFCB /* char_samp_set.cpp */,
+				64FD5EEE1D7094910083AFCB /* char_samp.cpp */,
+				64FD5EEF1D7094910083AFCB /* char_set.cpp */,
+				64FD5FA71D7095340083AFCB /* chop.cpp */,
+				64FD5FA81D7095340083AFCB /* chopper.cpp */,
+				64FD5F5A1D7095150083AFCB /* cjkpitch.cpp */,
+				64FD5EF01D7094910083AFCB /* classifier_factory.cpp */,
+				64FD5EA31D7094650083AFCB /* classify.cpp */,
+				64FD5E771D70942E0083AFCB /* clst.cpp */,
+				64FD5EA41D7094650083AFCB /* cluster.cpp */,
+				64FD5EA51D7094650083AFCB /* clusttool.cpp */,
+				64FD5F5B1D7095150083AFCB /* colfind.cpp */,
+				64FD5F5C1D7095150083AFCB /* colpartition.cpp */,
+				64FD5F5D1D7095150083AFCB /* colpartitiongrid.cpp */,
+				64FD5F5E1D7095150083AFCB /* colpartitionset.cpp */,
+				64FD5EF11D7094910083AFCB /* con_comp.cpp */,
+				64FD5F3A1D7094C10083AFCB /* context.cpp */,
+				64FD5DE61D7093D00083AFCB /* control.cpp */,
+				64FD5EF21D7094910083AFCB /* conv_net_classifier.cpp */,
+				64FD5E2B1D7094010083AFCB /* coutln.cpp */,
+				64FD5DE71D7093D00083AFCB /* cube_control.cpp */,
+				64FD5EF31D7094910083AFCB /* cube_line_object.cpp */,
+				64FD5EF41D7094910083AFCB /* cube_line_segmenter.cpp */,
+				64FD5EF51D7094910083AFCB /* cube_object.cpp */,
+				64FD5DE81D7093D00083AFCB /* cube_reco_context.cpp */,
+				64FD5EF61D7094910083AFCB /* cube_search_object.cpp */,
+				64FD5EF71D7094910083AFCB /* cube_tuning_params.cpp */,
+				64FD5EF81D7094910083AFCB /* cube_utils.cpp */,
+				64FD5DE91D7093D00083AFCB /* cubeclassifier.cpp */,
+				64FD5F261D7094AC0083AFCB /* cutil_class.cpp */,
+				64FD5F271D7094AC0083AFCB /* cutil.cpp */,
+				64FD5EA61D7094650083AFCB /* cutoffs.cpp */,
+				64FD5F281D7094AC0083AFCB /* danerror.cpp */,
+				64FD5F3B1D7094C10083AFCB /* dawg_cache.cpp */,
+				64FD5F3C1D7094C10083AFCB /* dawg.cpp */,
+				64FD5E2C1D7094010083AFCB /* detlinefit.cpp */,
+				64FD5F5F1D7095150083AFCB /* devanagari_processing.cpp */,
+				64FD5F3D1D7094C10083AFCB /* dict.cpp */,
+				64FD5DEA1D7093D00083AFCB /* docqual.cpp */,
+				64FD5E2D1D7094010083AFCB /* dppoint.cpp */,
+				64FD5F601D7095150083AFCB /* drawedg.cpp */,
+				64FD5FA91D7095340083AFCB /* drawfx.cpp */,
+				64FD5F611D7095150083AFCB /* drawtord.cpp */,
+				64FD5F621D7095150083AFCB /* edgblob.cpp */,
+				64FD5F631D7095150083AFCB /* edgloop.cpp */,
+				64FD5F291D7094AC0083AFCB /* efio.cpp */,
+				64FD5E781D70942E0083AFCB /* elst.cpp */,
+				64FD5E791D70942E0083AFCB /* elst2.cpp */,
+				64FD5F2A1D7094AC0083AFCB /* emalloc.cpp */,
+				64FD5DEB1D7093D00083AFCB /* equationdetect.cpp */,
+				64FD5F641D7095150083AFCB /* equationdetectbase.cpp */,
+				64FD5E7A1D70942E0083AFCB /* errcode.cpp */,
+				64FD5EA71D7094650083AFCB /* errorcounter.cpp */,
+				64FD5EA81D7094650083AFCB /* featdefs.cpp */,
+				64FD5EF91D7094910083AFCB /* feature_bmp.cpp */,
+				64FD5EFA1D7094910083AFCB /* feature_chebyshev.cpp */,
+				64FD5EFB1D7094910083AFCB /* feature_hybrid.cpp */,
+				64FD5FAA1D7095340083AFCB /* findseam.cpp */,
+				64FD5DEC1D7093D00083AFCB /* fixspace.cpp */,
+				64FD5DED1D7093D00083AFCB /* fixxht.cpp */,
+				64FD5EA91D7094650083AFCB /* float2int.cpp */,
+				64FD5E2E1D7094010083AFCB /* fontinfo.cpp */,
+				64FD5F651D7095150083AFCB /* fpchop.cpp */,
+				64FD5EAA1D7094650083AFCB /* fpoint.cpp */,
+				64FD5F2B1D7094AC0083AFCB /* freelist.cpp */,
+				64FD5F661D7095150083AFCB /* gap_map.cpp */,
+				64FD5E2F1D7094010083AFCB /* genblob.cpp */,
+				64FD5E7B1D70942E0083AFCB /* globaloc.cpp */,
+				64FD5FAB1D7095340083AFCB /* gradechop.cpp */,
+				64FD5EFC1D7094910083AFCB /* hybrid_neural_net_classifier.cpp */,
+				64FD5F3E1D7094C10083AFCB /* hyphen.cpp */,
+				64FD5E301D7094010083AFCB /* imagedata.cpp */,
+				64FD5F671D7095150083AFCB /* imagefind.cpp */,
+				64FD5E7C1D70942E0083AFCB /* indexmapbidi.cpp */,
+				64FD5F4A1D7094D20083AFCB /* input_file_buffer.cpp */,
+				64FD5EAB1D7094650083AFCB /* intfeaturedist.cpp */,
+				64FD5EAC1D7094650083AFCB /* intfeaturemap.cpp */,
+				64FD5EAD1D7094650083AFCB /* intfeaturespace.cpp */,
+				64FD5EAE1D7094650083AFCB /* intfx.cpp */,
+				64FD5EAF1D7094650083AFCB /* intmatcher.cpp */,
+				64FD5EB01D7094650083AFCB /* intproto.cpp */,
+				64FD5EB11D7094650083AFCB /* kdtree.cpp */,
+				64FD5FAC1D7095340083AFCB /* language_model.cpp */,
+				64FD5F681D7095150083AFCB /* linefind.cpp */,
+				64FD5E311D7094010083AFCB /* linlsq.cpp */,
+				64FD5F2C1D7094AC0083AFCB /* listio.cpp */,
+				64FD5FAD1D7095340083AFCB /* lm_consistency.cpp */,
+				64FD5FAE1D7095340083AFCB /* lm_pain_points.cpp */,
+				64FD5FAF1D7095340083AFCB /* lm_state.cpp */,
+				64FD5DEE1D7093D00083AFCB /* ltrresultiterator.cpp */,
+				64FD5E7D1D70942E0083AFCB /* mainblk.cpp */,
+				64FD5F691D7095150083AFCB /* makerow.cpp */,
+				64FD5EB21D7094650083AFCB /* mastertrainer.cpp */,
+				64FD5E321D7094010083AFCB /* matrix.cpp */,
+				64FD631E1D70BC1D0083AFCB /* memry.cpp */,
+				64FD5EB31D7094650083AFCB /* mf.cpp */,
+				64FD5EB41D7094650083AFCB /* mfdefs.cpp */,
+				64FD5EB51D7094650083AFCB /* mfoutline.cpp */,
+				64FD5EB61D7094650083AFCB /* mfx.cpp */,
+				64FD5E331D7094010083AFCB /* mod128.cpp */,
+				64FD5F4B1D7094D20083AFCB /* neural_net.cpp */,
+				64FD5F4C1D7094D20083AFCB /* neuron.cpp */,
+				64FD5E341D7094010083AFCB /* normalis.cpp */,
+				64FD5EB71D7094650083AFCB /* normfeat.cpp */,
+				64FD5EB81D7094650083AFCB /* normmatch.cpp */,
+				64FD5E351D7094010083AFCB /* ocrblock.cpp */,
+				64FD5EB91D7094650083AFCB /* ocrfeatures.cpp */,
+				64FD5E361D7094010083AFCB /* ocrpara.cpp */,
+				64FD5E371D7094010083AFCB /* ocrrow.cpp */,
+				64FD5F6A1D7095150083AFCB /* oldbasel.cpp */,
+				64FD5F2D1D7094AC0083AFCB /* oldlist.cpp */,
+				64FD5F521D7094DD0083AFCB /* openclwrapper.cpp */,
+				64FD5DEF1D7093D00083AFCB /* osdetect.cpp */,
+				64FD5E381D7094010083AFCB /* otsuthr.cpp */,
+				64FD5EBA1D7094650083AFCB /* outfeat.cpp */,
+				64FD5FB01D7095340083AFCB /* outlines.cpp */,
+				64FD5DF01D7093D00083AFCB /* output.cpp */,
+				64FD5DF11D7093D00083AFCB /* pageiterator.cpp */,
+				64FD5E391D7094010083AFCB /* pageres.cpp */,
+				64FD5DF21D7093D00083AFCB /* pagesegmain.cpp */,
+				64FD5DF31D7093D00083AFCB /* pagewalk.cpp */,
+				64FD5DF41D7093D00083AFCB /* par_control.cpp */,
+				64FD5DF51D7093D00083AFCB /* paragraphs.cpp */,
+				64FD5FB11D7095340083AFCB /* params_model.cpp */,
+				64FD5E3A1D7094010083AFCB /* params_training_featdef.cpp */,
+				64FD5E7E1D70942E0083AFCB /* params.cpp */,
+				64FD5DF61D7093D00083AFCB /* paramsd.cpp */,
+				64FD5E3B1D7094010083AFCB /* pdblock.cpp */,
+				64FD5DDC1D7093A60083AFCB /* pdfrenderer.cpp */,
+				64FD5F3F1D7094C10083AFCB /* permdawg.cpp */,
+				64FD5DF71D7093D00083AFCB /* pgedit.cpp */,
+				64FD5EBB1D7094650083AFCB /* picofeat.cpp */,
+				64FD5FB21D7095340083AFCB /* pieces.cpp */,
+				64FD5F6B1D7095150083AFCB /* pithsync.cpp */,
+				64FD5F6C1D7095150083AFCB /* pitsync1.cpp */,
+				64FD5FB31D7095340083AFCB /* plotedges.cpp */,
+				64FD5E3C1D7094010083AFCB /* points.cpp */,
+				64FD5E3D1D7094010083AFCB /* polyaprx.cpp */,
+				64FD5E3E1D7094010083AFCB /* polyblk.cpp */,
+				64FD5EBC1D7094650083AFCB /* protos.cpp */,
+				64FD5E3F1D7094010083AFCB /* publictypes.cpp */,
+				64FD5E401D7094010083AFCB /* quadlsq.cpp */,
+				64FD5E411D7094010083AFCB /* quspline.cpp */,
+				64FD5E421D7094010083AFCB /* ratngs.cpp */,
+				64FD5DF81D7093D00083AFCB /* recogtraining.cpp */,
+				64FD5E431D7094010083AFCB /* rect.cpp */,
+				64FD5E441D7094010083AFCB /* rejctmap.cpp */,
+				64FD5DF91D7093D00083AFCB /* reject.cpp */,
+				64FD5FB41D7095340083AFCB /* render.cpp */,
+				64FD5DDD1D7093A60083AFCB /* renderer.cpp */,
+				64FD5DFA1D7093D00083AFCB /* resultiterator.cpp */,
+				64FD5EBD1D7094650083AFCB /* sampleiterator.cpp */,
+				64FD5F6D1D7095150083AFCB /* scanedg.cpp */,
+				64FD5E7F1D70942E0083AFCB /* scanutils.cpp */,
+				64FD613E1D70A2A60083AFCB /* scrollview.cpp */,
+				64FD5E451D7094010083AFCB /* seam.cpp */,
+				64FD5EFD1D7094910083AFCB /* search_column.cpp */,
+				64FD5EFE1D7094910083AFCB /* search_node.cpp */,
+				64FD5FB51D7095340083AFCB /* segsearch.cpp */,
+				64FD5E801D70942E0083AFCB /* serialis.cpp */,
+				64FD5EBE1D7094650083AFCB /* shapeclassifier.cpp */,
+				64FD5EBF1D7094650083AFCB /* shapetable.cpp */,
+				64FD5F4D1D7094D20083AFCB /* sigmoid_table.cpp */,
+				64FD5F6E1D7095150083AFCB /* sortflts.cpp */,
+				64FD5E461D7094010083AFCB /* split.cpp */,
+				64FD5E471D7094010083AFCB /* statistc.cpp */,
+				64FD5E481D7094010083AFCB /* stepblob.cpp */,
+				64FD5F401D7094C10083AFCB /* stopper.cpp */,
+				64FD5E811D70942E0083AFCB /* strngs.cpp */,
+				64FD5F6F1D7095150083AFCB /* strokewidth.cpp */,
+				64FD5F2E1D7094AC0083AFCB /* structures.cpp */,
+				64FD5DFB1D7093D00083AFCB /* superscript.cpp */,
+				64FD613F1D70A2A60083AFCB /* svmnode.cpp */,
+				64FD61401D70A2A60083AFCB /* svpaint.cpp */,
+				64FD61411D70A2A60083AFCB /* svutil.cpp */,
+				64FD5F701D7095150083AFCB /* tabfind.cpp */,
+				64FD5F711D7095150083AFCB /* tablefind.cpp */,
+				64FD5F721D7095150083AFCB /* tablerecog.cpp */,
+				64FD5F731D7095150083AFCB /* tabvector.cpp */,
+				64FD5EFF1D7094910083AFCB /* tess_lang_mod_edge.cpp */,
+				64FD5F001D7094910083AFCB /* tess_lang_model.cpp */,
+				64FD5DFC1D7093D00083AFCB /* tessbox.cpp */,
+				64FD5EC01D7094650083AFCB /* tessclassifier.cpp */,
+				64FD5E821D70942E0083AFCB /* tessdatamanager.cpp */,
+				64FD5DFD1D7093D00083AFCB /* tessedit.cpp */,
+				64FD5DFE1D7093D00083AFCB /* tesseract_cube_combiner.cpp */,
+				64FD5DFF1D7093D00083AFCB /* tesseractclass.cpp */,
+				64FD5E001D7093D00083AFCB /* tessvars.cpp */,
+				64FD5F741D7095150083AFCB /* textlineprojection.cpp */,
+				64FD5F751D7095150083AFCB /* textord.cpp */,
+				64FD5FB61D7095340083AFCB /* tface.cpp */,
+				64FD5E011D7093D00083AFCB /* tfacepp.cpp */,
+				64FD5E021D7093D00083AFCB /* thresholder.cpp */,
+				64FD5F761D7095150083AFCB /* topitch.cpp */,
+				64FD5F771D7095150083AFCB /* tordmain.cpp */,
+				64FD5F781D7095150083AFCB /* tospace.cpp */,
+				64FD5F791D7095150083AFCB /* tovars.cpp */,
+				64FD5E831D70942E0083AFCB /* tprintf.cpp */,
+				64FD5EC11D7094650083AFCB /* trainingsample.cpp */,
+				64FD5EC21D7094650083AFCB /* trainingsampleset.cpp */,
+				64FD5F411D7094C10083AFCB /* trie.cpp */,
+				64FD5F7A1D7095150083AFCB /* underlin.cpp */,
+				64FD5E841D70942E0083AFCB /* unichar.cpp */,
+				64FD5E851D70942E0083AFCB /* unicharmap.cpp */,
+				64FD5E861D70942E0083AFCB /* unicharset.cpp */,
+				64FD5E871D70942E0083AFCB /* unicodes.cpp */,
+				64FD5E881D70942E0083AFCB /* universalambigs.cpp */,
+				64FD5E491D7094010083AFCB /* vecfuncs.cpp */,
+				64FD5E4A1D7094010083AFCB /* werd.cpp */,
+				64FD5E031D7093D00083AFCB /* werdit.cpp */,
+				64FD5F011D7094910083AFCB /* word_altlist.cpp */,
+				64FD5F021D7094910083AFCB /* word_list_lang_model.cpp */,
+				64FD5F031D7094910083AFCB /* word_size_model.cpp */,
+				64FD5F041D7094910083AFCB /* word_unigrams.cpp */,
+				64FD5FB71D7095340083AFCB /* wordclass.cpp */,
+				64FD5FB81D7095340083AFCB /* wordrec.cpp */,
+				64FD5F7B1D7095150083AFCB /* wordseg.cpp */,
+				64FD5F7C1D7095150083AFCB /* workingpartset.cpp */,
+			);
+			name = Tesseract;
+			sourceTree = "<group>";
+		};
+		64FD61361D709B690083AFCB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6438C21B1D70ECE6003EB71B /* LeptonicaFramework.xcodeproj */,
+				64FD5D8E1D708E050083AFCB /* Tesseract */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64FD5D801D708D380083AFCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FD5D871D708D380083AFCB /* TesseractFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64FD5D821D708D380083AFCB /* TesseractFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FD5D8B1D708D380083AFCB /* Build configuration list for PBXNativeTarget "TesseractFramework" */;
+			buildPhases = (
+				64FD5D7E1D708D380083AFCB /* Sources */,
+				64FD5D7F1D708D380083AFCB /* Frameworks */,
+				64FD5D801D708D380083AFCB /* Headers */,
+				64FD5D811D708D380083AFCB /* Resources */,
+				64FD63361D70D4740083AFCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6438C2221D70ECEA003EB71B /* PBXTargetDependency */,
+			);
+			name = TesseractFramework;
+			productName = TesseractFramework;
+			productReference = 64FD5D831D708D380083AFCB /* TesseractFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FD5D7A1D708D380083AFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adam Jensen";
+				TargetAttributes = {
+					64FD5D821D708D380083AFCB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 64FD5D7D1D708D380083AFCB /* Build configuration list for PBXProject "TesseractFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64FD5D791D708D380083AFCB;
+			productRefGroup = 64FD5D841D708D380083AFCB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6438C21C1D70ECE6003EB71B /* Products */;
+					ProjectRef = 6438C21B1D70ECE6003EB71B /* LeptonicaFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				64FD5D821D708D380083AFCB /* TesseractFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6438C2201D70ECE6003EB71B /* LeptonicaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LeptonicaFramework.framework;
+			remoteRef = 6438C21F1D70ECE6003EB71B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FD5D811D708D380083AFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FD5D7E1D708D380083AFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FD5E621D7094010083AFCB /* pdblock.cpp in Sources */,
+				64FD5F861D7095150083AFCB /* colpartitiongrid.cpp in Sources */,
+				64FD5E551D7094010083AFCB /* fontinfo.cpp in Sources */,
+				64FD5F061D7094910083AFCB /* beam_search.cpp in Sources */,
+				64FD5E941D70942E0083AFCB /* mainblk.cpp in Sources */,
+				64FD5E201D7093D10083AFCB /* tessvars.cpp in Sources */,
+				64FD5ED31D7094650083AFCB /* intproto.cpp in Sources */,
+				64FD5E181D7093D10083AFCB /* recogtraining.cpp in Sources */,
+				64FD5F4E1D7094D20083AFCB /* input_file_buffer.cpp in Sources */,
+				64FD5F141D7094910083AFCB /* cube_object.cpp in Sources */,
+				64FD5F171D7094910083AFCB /* cube_utils.cpp in Sources */,
+				64FD5ED41D7094650083AFCB /* kdtree.cpp in Sources */,
+				64FD5E921D70942E0083AFCB /* globaloc.cpp in Sources */,
+				64FD5F1D1D7094910083AFCB /* search_node.cpp in Sources */,
+				64FD5ECE1D7094650083AFCB /* intfeaturedist.cpp in Sources */,
+				64FD5F1F1D7094910083AFCB /* tess_lang_model.cpp in Sources */,
+				64FD5F981D7095150083AFCB /* strokewidth.cpp in Sources */,
+				64FD5F311D7094AC0083AFCB /* cutil_class.cpp in Sources */,
+				64FD5F8F1D7095150083AFCB /* gap_map.cpp in Sources */,
+				64FD5E111D7093D10083AFCB /* pageiterator.cpp in Sources */,
+				64FD5F891D7095150083AFCB /* drawedg.cpp in Sources */,
+				64FD5FBB1D7095340083AFCB /* chopper.cpp in Sources */,
+				64FD5E9C1D70942F0083AFCB /* unicharmap.cpp in Sources */,
+				64FD5F181D7094910083AFCB /* feature_bmp.cpp in Sources */,
+				64FD5E5D1D7094010083AFCB /* ocrpara.cpp in Sources */,
+				64FD5ED81D7094650083AFCB /* mfoutline.cpp in Sources */,
+				64FD5DE21D7093A60083AFCB /* renderer.cpp in Sources */,
+				64FD5EE41D7094650083AFCB /* trainingsample.cpp in Sources */,
+				64FD5E0E1D7093D10083AFCB /* ltrresultiterator.cpp in Sources */,
+				64FD5ED61D7094650083AFCB /* mf.cpp in Sources */,
+				64FD5F321D7094AC0083AFCB /* cutil.cpp in Sources */,
+				64FD5E901D70942E0083AFCB /* elst2.cpp in Sources */,
+				64FD5FBF1D7095340083AFCB /* language_model.cpp in Sources */,
+				64FD5F0C1D7094910083AFCB /* char_samp_set.cpp in Sources */,
+				64FD5E211D7093D10083AFCB /* tfacepp.cpp in Sources */,
+				64FD5EE11D7094650083AFCB /* shapeclassifier.cpp in Sources */,
+				64FD5F1E1D7094910083AFCB /* tess_lang_mod_edge.cpp in Sources */,
+				64FD5E151D7093D10083AFCB /* paragraphs.cpp in Sources */,
+				64FD5F231D7094910083AFCB /* word_unigrams.cpp in Sources */,
+				64FD5E5C1D7094010083AFCB /* ocrblock.cpp in Sources */,
+				64FD5E671D7094010083AFCB /* quadlsq.cpp in Sources */,
+				64FD5F151D7094910083AFCB /* cube_search_object.cpp in Sources */,
+				64FD5E591D7094010083AFCB /* matrix.cpp in Sources */,
+				64FD5E911D70942E0083AFCB /* errcode.cpp in Sources */,
+				64FD5FC71D7095340083AFCB /* render.cpp in Sources */,
+				64FD5EDB1D7094650083AFCB /* normmatch.cpp in Sources */,
+				64FD5F301D7094AC0083AFCB /* callcpp.cpp in Sources */,
+				64FD5E161D7093D10083AFCB /* paramsd.cpp in Sources */,
+				64FD5E1E1D7093D10083AFCB /* tesseract_cube_combiner.cpp in Sources */,
+				64FD5E531D7094010083AFCB /* detlinefit.cpp in Sources */,
+				64FD5F1C1D7094910083AFCB /* search_column.cpp in Sources */,
+				64FD5E5E1D7094010083AFCB /* ocrrow.cpp in Sources */,
+				64FD5FA11D7095150083AFCB /* tospace.cpp in Sources */,
+				64FD5F511D7094D20083AFCB /* sigmoid_table.cpp in Sources */,
+				64FD5F471D7094C10083AFCB /* permdawg.cpp in Sources */,
+				64FD61421D70A2A60083AFCB /* scrollview.cpp in Sources */,
+				64FD5F051D7094910083AFCB /* altlist.cpp in Sources */,
+				64FD5E681D7094010083AFCB /* quspline.cpp in Sources */,
+				64FD5E571D7094010083AFCB /* imagedata.cpp in Sources */,
+				64FD5ED91D7094650083AFCB /* mfx.cpp in Sources */,
+				64FD5F361D7094AC0083AFCB /* freelist.cpp in Sources */,
+				64FD5E1B1D7093D10083AFCB /* superscript.cpp in Sources */,
+				64FD5F4F1D7094D20083AFCB /* neural_net.cpp in Sources */,
+				64FD5E101D7093D10083AFCB /* output.cpp in Sources */,
+				64FD5F191D7094910083AFCB /* feature_chebyshev.cpp in Sources */,
+				64FD5E0D1D7093D10083AFCB /* fixxht.cpp in Sources */,
+				64FD5F1A1D7094910083AFCB /* feature_hybrid.cpp in Sources */,
+				64FD61451D70A2A60083AFCB /* svutil.cpp in Sources */,
+				64FD5EDF1D7094650083AFCB /* protos.cpp in Sources */,
+				64FD5F8A1D7095150083AFCB /* drawtord.cpp in Sources */,
+				64FD5E4B1D7094010083AFCB /* blamer.cpp in Sources */,
+				64FD5EE51D7094650083AFCB /* trainingsampleset.cpp in Sources */,
+				64FD5FBA1D7095340083AFCB /* chop.cpp in Sources */,
+				64FD5E561D7094010083AFCB /* genblob.cpp in Sources */,
+				64FD5ED01D7094650083AFCB /* intfeaturespace.cpp in Sources */,
+				64FD5E951D70942E0083AFCB /* params.cpp in Sources */,
+				64FD5F9A1D7095150083AFCB /* tablefind.cpp in Sources */,
+				64FD5FBC1D7095340083AFCB /* drawfx.cpp in Sources */,
+				64FD5E8F1D70942E0083AFCB /* elst.cpp in Sources */,
+				64FD5F461D7094C10083AFCB /* hyphen.cpp in Sources */,
+				64FD5FBD1D7095340083AFCB /* findseam.cpp in Sources */,
+				64FD5E971D70942E0083AFCB /* serialis.cpp in Sources */,
+				64FD5E4C1D7094010083AFCB /* blobbox.cpp in Sources */,
+				64FD5E981D70942E0083AFCB /* strngs.cpp in Sources */,
+				64FD5E121D7093D10083AFCB /* pagesegmain.cpp in Sources */,
+				64FD5FC11D7095340083AFCB /* lm_pain_points.cpp in Sources */,
+				64FD5ED51D7094650083AFCB /* mastertrainer.cpp in Sources */,
+				64FD5F531D7094DD0083AFCB /* openclwrapper.cpp in Sources */,
+				64FD5F8B1D7095150083AFCB /* edgblob.cpp in Sources */,
+				64FD5F441D7094C10083AFCB /* dawg.cpp in Sources */,
+				64FD5ECC1D7094650083AFCB /* float2int.cpp in Sources */,
+				64FD5F391D7094AC0083AFCB /* structures.cpp in Sources */,
+				64FD5F901D7095150083AFCB /* imagefind.cpp in Sources */,
+				64FD5ECB1D7094650083AFCB /* featdefs.cpp in Sources */,
+				64FD5EDD1D7094650083AFCB /* outfeat.cpp in Sources */,
+				64FD5EC31D7094650083AFCB /* adaptive.cpp in Sources */,
+				64FD5F071D7094910083AFCB /* bmp_8.cpp in Sources */,
+				64FD5F9B1D7095150083AFCB /* tablerecog.cpp in Sources */,
+				64FD5E131D7093D10083AFCB /* pagewalk.cpp in Sources */,
+				64FD5F8E1D7095150083AFCB /* fpchop.cpp in Sources */,
+				64FD5F8C1D7095150083AFCB /* edgloop.cpp in Sources */,
+				64FD5F841D7095150083AFCB /* colfind.cpp in Sources */,
+				64FD5FC81D7095340083AFCB /* segsearch.cpp in Sources */,
+				64FD5DE01D7093A60083AFCB /* capi.cpp in Sources */,
+				64FD5FBE1D7095340083AFCB /* gradechop.cpp in Sources */,
+				64FD5F821D7095150083AFCB /* ccnontextdetect.cpp in Sources */,
+				64FD5E1F1D7093D10083AFCB /* tesseractclass.cpp in Sources */,
+				64FD5FA01D7095150083AFCB /* tordmain.cpp in Sources */,
+				64FD5EC81D7094650083AFCB /* clusttool.cpp in Sources */,
+				64FD5F121D7094910083AFCB /* cube_line_object.cpp in Sources */,
+				64FD5E931D70942E0083AFCB /* indexmapbidi.cpp in Sources */,
+				64FD5F351D7094AC0083AFCB /* emalloc.cpp in Sources */,
+				64FD5E631D7094010083AFCB /* points.cpp in Sources */,
+				64FD5F221D7094910083AFCB /* word_size_model.cpp in Sources */,
+				64FD5F0D1D7094910083AFCB /* char_samp.cpp in Sources */,
+				64FD5E9F1D70942F0083AFCB /* universalambigs.cpp in Sources */,
+				64FD5E581D7094010083AFCB /* linlsq.cpp in Sources */,
+				64FD5E8C1D70942E0083AFCB /* bitvector.cpp in Sources */,
+				64FD5FC91D7095340083AFCB /* tface.cpp in Sources */,
+				64FD5F9C1D7095150083AFCB /* tabvector.cpp in Sources */,
+				64FD5E891D70942E0083AFCB /* ambigs.cpp in Sources */,
+				64FD5ECA1D7094650083AFCB /* errorcounter.cpp in Sources */,
+				64FD5E6F1D7094010083AFCB /* stepblob.cpp in Sources */,
+				64FD5F381D7094AC0083AFCB /* oldlist.cpp in Sources */,
+				64FD5ED21D7094650083AFCB /* intmatcher.cpp in Sources */,
+				64FD5E521D7094010083AFCB /* coutln.cpp in Sources */,
+				64FD5E1A1D7093D10083AFCB /* resultiterator.cpp in Sources */,
+				64FD5E661D7094010083AFCB /* publictypes.cpp in Sources */,
+				64FD5F991D7095150083AFCB /* tabfind.cpp in Sources */,
+				64FD5FC61D7095340083AFCB /* plotedges.cpp in Sources */,
+				64FD5F7F1D7095150083AFCB /* bbgrid.cpp in Sources */,
+				64FD5EDE1D7094650083AFCB /* picofeat.cpp in Sources */,
+				64FD5F371D7094AC0083AFCB /* listio.cpp in Sources */,
+				64FD5F421D7094C10083AFCB /* context.cpp in Sources */,
+				64FD5F131D7094910083AFCB /* cube_line_segmenter.cpp in Sources */,
+				64FD5F331D7094AC0083AFCB /* danerror.cpp in Sources */,
+				64FD5E511D7094010083AFCB /* ccstruct.cpp in Sources */,
+				64FD5F1B1D7094910083AFCB /* hybrid_neural_net_classifier.cpp in Sources */,
+				64FD5F851D7095150083AFCB /* colpartition.cpp in Sources */,
+				64FD5FC21D7095340083AFCB /* lm_state.cpp in Sources */,
+				64FD5EE01D7094650083AFCB /* sampleiterator.cpp in Sources */,
+				64FD5E701D7094010083AFCB /* vecfuncs.cpp in Sources */,
+				64FD5E0F1D7093D10083AFCB /* osdetect.cpp in Sources */,
+				64FD5EC51D7094650083AFCB /* blobclass.cpp in Sources */,
+				64FD5E041D7093D00083AFCB /* adaptions.cpp in Sources */,
+				64FD5F0B1D7094910083AFCB /* char_samp_enum.cpp in Sources */,
+				64FD5E051D7093D00083AFCB /* applybox.cpp in Sources */,
+				64FD5FA41D7095150083AFCB /* wordseg.cpp in Sources */,
+				64FD5E6E1D7094010083AFCB /* statistc.cpp in Sources */,
+				64FD5F881D7095150083AFCB /* devanagari_processing.cpp in Sources */,
+				64FD5E081D7093D10083AFCB /* cube_reco_context.cpp in Sources */,
+				64FD5E541D7094010083AFCB /* dppoint.cpp in Sources */,
+				64FD5FA51D7095150083AFCB /* workingpartset.cpp in Sources */,
+				64FD5F0E1D7094910083AFCB /* char_set.cpp in Sources */,
+				64FD5E9B1D70942E0083AFCB /* unichar.cpp in Sources */,
+				64FD5F801D7095150083AFCB /* blkocc.cpp in Sources */,
+				64FD5F941D7095150083AFCB /* pithsync.cpp in Sources */,
+				64FD5E8B1D70942E0083AFCB /* bits16.cpp in Sources */,
+				64FD5F481D7094C10083AFCB /* stopper.cpp in Sources */,
+				64FD5E071D7093D10083AFCB /* cube_control.cpp in Sources */,
+				64FD5E1D1D7093D10083AFCB /* tessedit.cpp in Sources */,
+				64FD5E221D7093D10083AFCB /* thresholder.cpp in Sources */,
+				64FD5E501D7094010083AFCB /* boxword.cpp in Sources */,
+				64FD5F8D1D7095150083AFCB /* equationdetectbase.cpp in Sources */,
+				64FD5E4F1D7094010083AFCB /* boxread.cpp in Sources */,
+				64FD5EDA1D7094650083AFCB /* normfeat.cpp in Sources */,
+				64FD5F951D7095150083AFCB /* pitsync1.cpp in Sources */,
+				64FD5ECF1D7094650083AFCB /* intfeaturemap.cpp in Sources */,
+				64FD5F491D7094C10083AFCB /* trie.cpp in Sources */,
+				64FD5E6D1D7094010083AFCB /* split.cpp in Sources */,
+				64FD5F961D7095150083AFCB /* scanedg.cpp in Sources */,
+				64FD5F101D7094910083AFCB /* con_comp.cpp in Sources */,
+				64FD5F431D7094C10083AFCB /* dawg_cache.cpp in Sources */,
+				64FD61441D70A2A60083AFCB /* svpaint.cpp in Sources */,
+				64FD5E8E1D70942E0083AFCB /* clst.cpp in Sources */,
+				64FD5FC01D7095340083AFCB /* lm_consistency.cpp in Sources */,
+				64FD5ED71D7094650083AFCB /* mfdefs.cpp in Sources */,
+				64FD5F921D7095150083AFCB /* makerow.cpp in Sources */,
+				64FD5FCA1D7095340083AFCB /* wordclass.cpp in Sources */,
+				64FD5F911D7095150083AFCB /* linefind.cpp in Sources */,
+				64FD5F091D7094910083AFCB /* char_altlist.cpp in Sources */,
+				64FD5E691D7094010083AFCB /* ratngs.cpp in Sources */,
+				64FD5E711D7094010083AFCB /* werd.cpp in Sources */,
+				64FD5F831D7095150083AFCB /* cjkpitch.cpp in Sources */,
+				64FD5E8D1D70942E0083AFCB /* ccutil.cpp in Sources */,
+				64FD5E5B1D7094010083AFCB /* normalis.cpp in Sources */,
+				64FD5F2F1D7094AC0083AFCB /* bitvec.cpp in Sources */,
+				64FD5E9E1D70942F0083AFCB /* unicodes.cpp in Sources */,
+				64FD5EE21D7094650083AFCB /* shapetable.cpp in Sources */,
+				64FD5F211D7094910083AFCB /* word_list_lang_model.cpp in Sources */,
+				64FD5EC91D7094650083AFCB /* cutoffs.cpp in Sources */,
+				64FD5EDC1D7094650083AFCB /* ocrfeatures.cpp in Sources */,
+				64FD5EC41D7094650083AFCB /* adaptmatch.cpp in Sources */,
+				64FD5F7D1D7095150083AFCB /* alignedblob.cpp in Sources */,
+				64FD5EE31D7094650083AFCB /* tessclassifier.cpp in Sources */,
+				64FD5E9A1D70942E0083AFCB /* tprintf.cpp in Sources */,
+				64FD5F501D7094D20083AFCB /* neuron.cpp in Sources */,
+				64FD5E991D70942E0083AFCB /* tessdatamanager.cpp in Sources */,
+				64FD5F111D7094910083AFCB /* conv_net_classifier.cpp in Sources */,
+				64FD5F9D1D7095150083AFCB /* textlineprojection.cpp in Sources */,
+				64FD5FA31D7095150083AFCB /* underlin.cpp in Sources */,
+				64FD5E061D7093D10083AFCB /* control.cpp in Sources */,
+				64FD5E4E1D7094010083AFCB /* blread.cpp in Sources */,
+				64FD5EC71D7094650083AFCB /* cluster.cpp in Sources */,
+				64FD5F9F1D7095150083AFCB /* topitch.cpp in Sources */,
+				64FD5F0A1D7094910083AFCB /* char_bigrams.cpp in Sources */,
+				64FD5F0F1D7094910083AFCB /* classifier_factory.cpp in Sources */,
+				64FD5F811D7095150083AFCB /* blobgrid.cpp in Sources */,
+				64FD5E171D7093D10083AFCB /* pgedit.cpp in Sources */,
+				64FD5E141D7093D10083AFCB /* par_control.cpp in Sources */,
+				64FD5FC41D7095340083AFCB /* params_model.cpp in Sources */,
+				64FD5F971D7095150083AFCB /* sortflts.cpp in Sources */,
+				64FD5ED11D7094650083AFCB /* intfx.cpp in Sources */,
+				64FD5E9D1D70942F0083AFCB /* unicharset.cpp in Sources */,
+				64FD5F9E1D7095150083AFCB /* textord.cpp in Sources */,
+				64FD5ECD1D7094650083AFCB /* fpoint.cpp in Sources */,
+				64FD5FCB1D7095340083AFCB /* wordrec.cpp in Sources */,
+				64FD5E641D7094010083AFCB /* polyaprx.cpp in Sources */,
+				64FD5F341D7094AC0083AFCB /* efio.cpp in Sources */,
+				64FD5E0C1D7093D10083AFCB /* fixspace.cpp in Sources */,
+				64FD5E8A1D70942E0083AFCB /* basedir.cpp in Sources */,
+				64FD5E231D7093D10083AFCB /* werdit.cpp in Sources */,
+				64FD5E6B1D7094010083AFCB /* rejctmap.cpp in Sources */,
+				64FD5F7E1D7095150083AFCB /* baselinedetect.cpp in Sources */,
+				64FD5DDF1D7093A60083AFCB /* baseapi.cpp in Sources */,
+				64FD5E6A1D7094010083AFCB /* rect.cpp in Sources */,
+				64FD5E961D70942E0083AFCB /* scanutils.cpp in Sources */,
+				64FD5F081D7094910083AFCB /* cached_file.cpp in Sources */,
+				64FD5E0A1D7093D10083AFCB /* docqual.cpp in Sources */,
+				64FD5FC31D7095340083AFCB /* outlines.cpp in Sources */,
+				64FD5E191D7093D10083AFCB /* reject.cpp in Sources */,
+				64FD5E1C1D7093D10083AFCB /* tessbox.cpp in Sources */,
+				64FD5E4D1D7094010083AFCB /* blobs.cpp in Sources */,
+				64FD5F161D7094910083AFCB /* cube_tuning_params.cpp in Sources */,
+				64FD5E5F1D7094010083AFCB /* otsuthr.cpp in Sources */,
+				64FD5E651D7094010083AFCB /* polyblk.cpp in Sources */,
+				64FD5E6C1D7094010083AFCB /* seam.cpp in Sources */,
+				64FD5E601D7094010083AFCB /* pageres.cpp in Sources */,
+				64FD5E5A1D7094010083AFCB /* mod128.cpp in Sources */,
+				64FD5F871D7095150083AFCB /* colpartitionset.cpp in Sources */,
+				64FD61431D70A2A60083AFCB /* svmnode.cpp in Sources */,
+				64FD5F451D7094C10083AFCB /* dict.cpp in Sources */,
+				64FD5FC51D7095340083AFCB /* pieces.cpp in Sources */,
+				64FD5EC61D7094650083AFCB /* classify.cpp in Sources */,
+				64FD5E091D7093D10083AFCB /* cubeclassifier.cpp in Sources */,
+				64FD5F931D7095150083AFCB /* oldbasel.cpp in Sources */,
+				64FD5E611D7094010083AFCB /* params_training_featdef.cpp in Sources */,
+				64FD5FA21D7095150083AFCB /* tovars.cpp in Sources */,
+				64FD5F201D7094910083AFCB /* word_altlist.cpp in Sources */,
+				64FD5DE11D7093A60083AFCB /* pdfrenderer.cpp in Sources */,
+				64FD5FB91D7095340083AFCB /* associate.cpp in Sources */,
+				64FD631F1D70BC1D0083AFCB /* memry.cpp in Sources */,
+				64FD5E0B1D7093D10083AFCB /* equationdetect.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6438C2221D70ECEA003EB71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeptonicaFramework;
+			targetProxy = 6438C2211D70ECEA003EB71B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64FD5D891D708D380083AFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64FD5D8A1D708D380083AFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64FD5D8C1D708D380083AFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TesseractFramework/Tesseract/**",
+					"$(PROJECT_DIR)/TesseractFramework/LeptonicaFramework/**",
+					"$(PROJECT_DIR)/TesseractFramework/Libraries/**",
+				);
+				INFOPLIST_FILE = TesseractFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/jpeg/**",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DUSE_STD_NAMESPACE",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.acj.TesseractFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		64FD5D8D1D708D380083AFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TesseractFramework/Tesseract/**",
+					"$(PROJECT_DIR)/TesseractFramework/LeptonicaFramework/**",
+					"$(PROJECT_DIR)/TesseractFramework/Libraries/**",
+				);
+				INFOPLIST_FILE = TesseractFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/jpeg/**",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DUSE_STD_NAMESPACE",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.acj.TesseractFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FD5D7D1D708D380083AFCB /* Build configuration list for PBXProject "TesseractFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FD5D891D708D380083AFCB /* Debug */,
+				64FD5D8A1D708D380083AFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FD5D8B1D708D380083AFCB /* Build configuration list for PBXNativeTarget "TesseractFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FD5D8C1D708D380083AFCB /* Debug */,
+				64FD5D8D1D708D380083AFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FD5D7A1D708D380083AFCB /* Project object */;
+}

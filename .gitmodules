@@ -1,0 +1,6 @@
+[submodule "TesseractFramework/Tesseract"]
+	path = TesseractFramework/Tesseract
+	url = https://github.com/tesseract-ocr/tesseract.git
+[submodule "TesseractFramework/LeptonicaFramework"]
+	path = TesseractFramework/LeptonicaFramework
+	url = https://github.com/acj/LeptonicaFramework-OSX.git
