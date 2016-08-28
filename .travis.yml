@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: TesseractFramework.xcodeproj
+xcode_scheme: TesseractFramework
+osx_image: xcode7.3
